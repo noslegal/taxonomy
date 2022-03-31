@@ -1,2 +1,2 @@
 # taxonomy
-noslegal taxonomy facets and release notes
+noslegal taxonomy v1.0 and release notes
