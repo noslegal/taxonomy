@@ -1,0 +1,37 @@
+{
+  "Name": "Information asset status",
+  "Code": "lin-sta",
+  "Definition": "An attribute of an information asset signifying its work status",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Final",
+      "Code": "lin-sta-1",
+      "Definition": "In the final form intended for the relevant audience. ",
+      "Notes on definition": "",
+      "Synonyms": "Of record, signed, delivered, executed, published, finalised, finalized",
+      "Examples": "An executed contract, an approved template made available for wide use, a finalised note of advice, a published blog post",
+      "children": []
+    },
+    {
+      "Name": "Draft",
+      "Code": "lin-sta-2",
+      "Definition": "Not finalised, but with the intention that it will (or, at least, may be) finalised rather than remaining fluid",
+      "Notes on definition": "",
+      "Synonyms": "Mark-up, work in progress",
+      "Examples": "A draft contract, an unfinished article",
+      "children": []
+    },
+    {
+      "Name": "Fluid",
+      "Code": "lin-sta-3",
+      "Definition": "Not finalised and not intended to be finalised. Instead, updated incrementally without formal review before each increment is made available to the intended audience. \n\nNote: mainly relevant to certain knowledge assets. 'Fluid' should not be used for information assets which go through a review before new numbered or dated versions are published - these should be marked as 'draft' or 'final' in the traditional way.",
+      "Notes on definition": "",
+      "Synonyms": "Rolling, collaborative, permanent beta",
+      "Examples": "A wiki, a continuously updated template without formal versioning",
+      "children": []
+    }
+  ]
+}

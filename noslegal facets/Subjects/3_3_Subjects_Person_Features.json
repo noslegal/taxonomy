@@ -1,0 +1,283 @@
+{
+  "Name": "Person features",
+  "Code": "ls-f",
+  "Definition": "Features of a person which are not a role but express a characteristic of relevance for some purposes",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "Full name if different": "",
+  "Subject": "",
+  "children": [
+    {
+      "Name": "Commercial features",
+      "Code": "ls-f-1",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Full name if different": "",
+      "Subject": "",
+      "children": [
+        {
+          "Name": "Business",
+          "Code": "ls-f-1.1",
+          "Definition": "An organisation engaged in business, profitably or not. Typically this will be with an aim to profit eventually, though in some cases this may not be (e.g. subsidised state-owned enterprises).",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "",
+          "Subject": "Organisation, Individual",
+          "children": [
+            {
+              "Name": "Listed company",
+              "Code": "ls-f-1.1.1",
+              "Definition": "A corporate body listed or quoted on a recognised exchange",
+              "Notes on definition": "",
+              "Synonyms": "ListCo",
+              "Examples": "",
+              "Full name if different": "",
+              "Subject": "Corporate body",
+              "children": []
+            },
+            {
+              "Name": "Franchise",
+              "Code": "ls-f-1.1.2",
+              "Definition": "A person (often a corporate body) whose business activity is entirely or mostly based on using intellectual property and business methods licensed from another person, often a corporate body.",
+              "Notes on definition": "",
+              "Synonyms": "Franchisee",
+              "Examples": "",
+              "Full name if different": "",
+              "Subject": "Organisation, Individual",
+              "children": []
+            },
+            {
+              "Name": "ABS",
+              "Code": "ls-f-1.1.3",
+              "Definition": "England and Wales regulatory category for certain legal services businesses. See Part 5 of the Legal Services Act 2007.",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "Full name if different": "Alternative business structure",
+              "Subject": "Organisation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "NFP",
+          "Code": "ls-f-1.2",
+          "Definition": "General term for a corporate body, association or sometimes a project which is conducted other than with a view to profit. There are many more specific types with definitions under particularl legal systems e.g. charities, NPOs (US non-profit organization).",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "Not for profit",
+          "Subject": "Organisation",
+          "children": []
+        },
+        {
+          "Name": "Public enterprise",
+          "Code": "ls-f-1.3",
+          "Definition": "A business or other body which is separate from an authority, but in some sense owned or controlled by an authority, even if it has some operational independence",
+          "Notes on definition": "There is inevitably some scope for debate about this category, as theories and practical details of 'the state' and 'public bodies' vary greatly. Nevertheless, the concept is offered as a useful practical one. We are open to views on whether to attempt a more detailed definition or whether it is better simply to see how people use it and develop any further concepts based on experience.",
+          "Synonyms": "State owned enterprise, SOE, quango",
+          "Examples": "UK examples: British Broadcasting Corporation (BBC), British Business Bank, Cardiff Airport, Channel Four Television Corporation, Civil Aviation Authority, DfT OLR (Department of Transport Operator of Last Resort), Great British Railways, HM Land Registry, Highlands and Islands Airports Limited (HIAL), Homes England, London and Continental Railways, National Highways, National Physical Laboratory, Network Rail, Ordnance Survey, Pension Protection Fund, Post Office, Scot Rail, Scottish Water, Sheffield Forgemasters, Transport for Edinburgh, Transport for London, UK Government Investments",
+          "Full name if different": "",
+          "Subject": "Organisation",
+          "children": []
+        },
+        {
+          "Name": "SPV",
+          "Code": "ls-f-1.4",
+          "Definition": "A corporate body used to isolate a risk arising in the context of a particular asset or activity",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "Special purpose vehicle",
+          "Subject": "Corporate body",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Organisation size features",
+      "Code": "ls-f-2",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Full name if different": "",
+      "Subject": "",
+      "children": [
+        {
+          "Name": "SME",
+          "Code": "ls-f-2.1",
+          "Definition": "(i) < 250 staff and (ii) turnover \u2a7d \u20ac50M and (iii) balance sheet \u2a7d \u20ac43M. See EU law definition.",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "Small or medium-sized enterprise (EU definition)",
+          "Subject": "Organisation, Individual",
+          "children": [
+            {
+              "Name": "Micro enterprise",
+              "Code": "ls-f-2.1.1",
+              "Definition": "Sub-type of small enterprise, with (i) <10 staff and (ii) turnover \u2a7d \u20ac2M and (iii) balance sheet \u2a7d \u20ac2M",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "Full name if different": "Micro enterprise (EU definition)",
+              "Subject": "Organisation, Individual",
+              "children": []
+            },
+            {
+              "Name": "Small enterprise",
+              "Code": "ls-f-2.1.2",
+              "Definition": "Sub-type of SME, with (i) <50 staff and (ii) turnover \u2a7d \u20ac10M and (iii) balance sheet \u2a7d \u20ac10M",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "Full name if different": "",
+              "Subject": "Organisation",
+              "children": []
+            },
+            {
+              "Name": "Large enterprise",
+              "Code": "ls-f-2.1.3",
+              "Definition": "An enterprise which is larger than a medium enterprise",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "Full name if different": "",
+              "Subject": "Organisation",
+              "children": []
+            },
+            {
+              "Name": "Large enterprise",
+              "Code": "ls-f-2.1.3",
+              "Definition": "An enterprise which is larger than a medium enterprise",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "Full name if different": "",
+              "Subject": "Organisation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "SMB",
+          "Code": "ls-f-2.2",
+          "Definition": "",
+          "Notes on definition": "For most organisations and use cases, it is likely to be desirable to choose only one definition of SMB or SME so as to promote consistency of data. Handling multiple definitions will increase complication, so the benefit should be considered very carefully before doing so. For the same reason, subtypes (e.g. medium, small, micro) should be used from within the same SME or SMB parent type.",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "Small or medium-sized business (US definition)",
+          "Subject": "Organisation, Individual",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Common interest features",
+      "Code": "ls-f-3",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Full name if different": "",
+      "Subject": "",
+      "children": [
+        {
+          "Name": "Industry Body",
+          "Code": "ls-f-3.1",
+          "Definition": "An organisation for businesses in a particular industry with the aim of maintaining and improving issues of interest to those businesses and particular sub-groups. Such organisations often engage in advocacy and lobbying functions, and may be involved in standard-setting. There is significant variance between countries and professions. They may or may not have statutory backing. They may be local or international. Some associations' activities are defined more by issues affecting more than one industry (e.g. IP infringement) rather than by industry as such. They have varying levels of state affiliation.",
+          "Notes on definition": "",
+          "Synonyms": "Trade Association, Trade Federation, Trade Group, Trade Federation, Business Association ",
+          "Examples": "",
+          "Full name if different": "Industry Body",
+          "Subject": "Organisation",
+          "children": []
+        },
+        {
+          "Name": "Professional Body",
+          "Code": "ls-f-3.2",
+          "Definition": "An organisation for professionals of a particular type (e.g. lawyers, doctors, accountants) with the aim of maintaining and improving issues of interest to those professionals and particular sub-groups. Such organisations often also have a role in issues of broader public interest and exercise advocacy, lobbying, professional standards, licensing, regulatory and disciplinary functions. There is significant variance between countries and professions. They may or may not have statutory backing. They are typically national or subnational but there are some looser international bodies as well, often focused on networking, knowledge-sharing and sometimes standard setting and coordination of international advocacy efforts.",
+          "Notes on definition": "",
+          "Synonyms": "Professional Association, Professional Organization, Professional Society, Learned Society, Regulatory College",
+          "Examples": "",
+          "Full name if different": "",
+          "Subject": "Organisation",
+          "children": []
+        },
+        {
+          "Name": "Trade union",
+          "Code": "ls-f-3.3",
+          "Definition": "An organisation for employees in particular industries or roles with the aim of maintaining and improving members' terms and conditions of employment. Some unions undertake further activities in support of their members' welfare.",
+          "Notes on definition": "",
+          "Synonyms": "Union, Labour Union, Labor Union, Guild, Trade Guild",
+          "Examples": "",
+          "Full name if different": "",
+          "Subject": "Organisation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Individual features",
+      "Code": "ls-f-4",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Full name if different": "",
+      "Subject": "",
+      "children": [
+        {
+          "Name": "HNWI",
+          "Code": "ls-f-4.1",
+          "Definition": "No universal legal definition but commonly understood to be someone with financial assets (excluding their primary residence) in excess of US$1 million. See Wikipedia article.",
+          "Notes on definition": "",
+          "Synonyms": "HNW",
+          "Examples": "",
+          "Full name if different": "High net worth individual",
+          "Subject": "Individual",
+          "children": [
+            {
+              "Name": "UHNWI",
+              "Code": "ls-f-4.1.1",
+              "Definition": "As with HNWI, no universal legal definition but suggested as defined by financial assets over US$30 million.",
+              "Notes on definition": "",
+              "Synonyms": "UHNW",
+              "Examples": "",
+              "Full name if different": "Ultra high net worth individual",
+              "Subject": "Individual",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "PEP",
+          "Code": "ls-f-4.2",
+          "Definition": "An individual entrusted with a prominent public function. See FATF guidance.",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Full name if different": "Politically exposed person",
+          "Subject": "Individual",
+          "children": []
+        },
+        {
+          "Name": "Sole trader",
+          "Code": "ls-f-4.3",
+          "Definition": "An individual who enters into commercial transactions as an individual rather than using a corporate or unincorporated body. The individual may use their regular name or a trading name.",
+          "Notes on definition": "",
+          "Synonyms": "Sole practitioner, solo practitioner",
+          "Examples": "",
+          "Full name if different": "",
+          "Subject": "Individual",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

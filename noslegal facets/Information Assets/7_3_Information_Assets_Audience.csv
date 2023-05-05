@@ -1,0 +1,9 @@
+Code,Name,Parent,Definition,Synonyms,Examples
+lin-aud,Information asset audience,,An attribute of an information asset signifying who it is intended for,,
+lin-aud-1,Internal,lin-aud,People within this organisation only,,"Guidance notes, templates"
+lin-aud-1.1,Legal professionals,lin-aud-1,People who do legal work and have or are seeking to develop some expertise there,,
+lin-aud-1.2,Business people,lin-aud-1,People who are not seeking to do legal work ,,
+lin-aud-2,External,lin-aud,"People outside this organisation, as well as those inside it",,"Contracts, pleadings, witness statements"
+lin-aud-2.1,Client,lin-aud-2,"A specific client, or clients generally",,Legal advice to a particular client
+lin-aud-2.2,Prospect,lin-aud-2,"A prospective client, or prospective clients generally",,Pitch contents targeted at a particular prospect
+lin-aud-2.3,Public,lin-aud-2,"The world at large, including clients and prospects but also potential team members, media and anyone else",,"A website section, newsletter, blogpost or published article"

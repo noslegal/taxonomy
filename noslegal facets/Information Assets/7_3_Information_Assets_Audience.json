@@ -1,0 +1,75 @@
+{
+  "Name": "Information asset audience",
+  "Code": "lin-aud",
+  "Definition": "An attribute of an information asset signifying who it is intended for",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Internal",
+      "Code": "lin-aud-1",
+      "Definition": "People within this organisation only",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Guidance notes, templates",
+      "children": [
+        {
+          "Name": "Legal professionals",
+          "Code": "lin-aud-1.1",
+          "Definition": "People who do legal work and have or are seeking to develop some expertise there",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Business people",
+          "Code": "lin-aud-1.2",
+          "Definition": "People who are not seeking to do legal work ",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "External",
+      "Code": "lin-aud-2",
+      "Definition": "People outside this organisation, as well as those inside it",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Contracts, pleadings, witness statements",
+      "children": [
+        {
+          "Name": "Client",
+          "Code": "lin-aud-2.1",
+          "Definition": "A specific client, or clients generally",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Legal advice to a particular client",
+          "children": []
+        },
+        {
+          "Name": "Prospect",
+          "Code": "lin-aud-2.2",
+          "Definition": "A prospective client, or prospective clients generally",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Pitch contents targeted at a particular prospect",
+          "children": []
+        },
+        {
+          "Name": "Public",
+          "Code": "lin-aud-2.3",
+          "Definition": "The world at large, including clients and prospects but also potential team members, media and anyone else",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "A website section, newsletter, blogpost or published article",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

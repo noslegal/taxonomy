@@ -1,0 +1,184 @@
+{
+    "columns":[
+        "UN Regions",
+        "M49 Code",
+        "Parent"
+    ],
+    "data":[
+        [
+            "Africa",
+            2.0,
+            null
+        ],
+        [
+            "Americas",
+            19.0,
+            null
+        ],
+        [
+            "Antartica",
+            10.0,
+            null
+        ],
+        [
+            "Asia",
+            142.0,
+            null
+        ],
+        [
+            "Europe",
+            150.0,
+            null
+        ],
+        [
+            "Oceania",
+            9.0,
+            null
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            "UN Sub-Regions",
+            null,
+            null
+        ],
+        [
+            "Northern Africa",
+            15.0,
+            "Africa"
+        ],
+        [
+            "Sub-Saharan Africa",
+            202.0,
+            "Africa"
+        ],
+        [
+            "Latin America and the Caribbean",
+            419.0,
+            "Americas"
+        ],
+        [
+            "Northern America",
+            21.0,
+            "Americas"
+        ],
+        [
+            "Central Asia",
+            143.0,
+            "Asia"
+        ],
+        [
+            "Eastern Asia",
+            30.0,
+            "Asia"
+        ],
+        [
+            "South-eastern Asia",
+            35.0,
+            "Asia"
+        ],
+        [
+            "Southern Asia",
+            34.0,
+            "Asia"
+        ],
+        [
+            "Western Asia",
+            145.0,
+            "Asia"
+        ],
+        [
+            "Eastern Europe",
+            151.0,
+            "Europe"
+        ],
+        [
+            "Northern Europe",
+            154.0,
+            "Europe"
+        ],
+        [
+            "Southern Europe",
+            39.0,
+            "Europe"
+        ],
+        [
+            "Western Europe",
+            155.0,
+            "Europe"
+        ],
+        [
+            "Australia and New Zealand",
+            53.0,
+            "Oceania"
+        ],
+        [
+            "Melanesia",
+            54.0,
+            "Oceania"
+        ],
+        [
+            "Micronesia",
+            57.0,
+            "Oceania"
+        ],
+        [
+            "Polynesia",
+            61.0,
+            "Oceania"
+        ],
+        [
+            null,
+            null,
+            null
+        ],
+        [
+            "UN Intermediate Regions",
+            null,
+            null
+        ],
+        [
+            "Eastern Africa",
+            14.0,
+            "Sub-Saharan Africa"
+        ],
+        [
+            "Middle Africa",
+            17.0,
+            "Sub-Saharan Africa"
+        ],
+        [
+            "Southern Africa",
+            18.0,
+            "Sub-Saharan Africa"
+        ],
+        [
+            "Western Africa",
+            11.0,
+            "Sub-Saharan Africa"
+        ],
+        [
+            "Caribbean",
+            29.0,
+            "Latin America and the Caribbean"
+        ],
+        [
+            "Central America",
+            13.0,
+            "Latin America and the Caribbean"
+        ],
+        [
+            "South America",
+            5.0,
+            "Latin America and the Caribbean"
+        ],
+        [
+            "Channel Islands",
+            830.0,
+            "Northern Europe"
+        ]
+    ]
+}

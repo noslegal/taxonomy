@@ -1,0 +1,8 @@
+﻿Alt region,Definition,Notes
+AMER,Americas,
+EMEA_1,"Europe, Africa, Central Asia, Western Asia",_1 defines EMEA widely (inc Central Asia + Iran) and APAC narrowly
+APAC_1,"Oceania, Eastern Asia, South-eastern Asia, Southern Asia",
+EMEA_2,"Europe, Africa,  Central Asia, Western Asia excluding Iran",_2 is the same as _1 but with Iran in APAC not EMEA
+APAC_2,"Oceania, Eastern Asia, South-eastern Asia, Southern Asia plus Iran",
+EMEA_3,"Europe, Africa, Western Asia excluding Iran",_3 defines EMEA narrowly (exc Central Asia and Iran) and APAC widely
+APAC_3,"Oceania, Central Asia, Eastern Asia, South-eastern Asia, Southern Asia plus Iran",

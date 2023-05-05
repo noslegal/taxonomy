@@ -1,0 +1,7 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples
+lin-sta,Information asset status,,An attribute of an information asset signifying its work status,,,
+lin-sta-1,Final,lin-sta,In the final form intended for the relevant audience. ,,"Of record, signed, delivered, executed, published, finalised, finalized","An executed contract, an approved template made available for wide use, a finalised note of advice, a published blog post"
+lin-sta-2,Draft,lin-sta,"Not finalised, but with the intention that it will (or, at least, may be) finalised rather than remaining fluid",,"Mark-up, work in progress","A draft contract, an unfinished article"
+lin-sta-3,Fluid,lin-sta,"Not finalised and not intended to be finalised. Instead, updated incrementally without formal review before each increment is made available to the intended audience. 
+
+Note: mainly relevant to certain knowledge assets. 'Fluid' should not be used for information assets which go through a review before new numbered or dated versions are published - these should be marked as 'draft' or 'final' in the traditional way.",,"Rolling, collaborative, permanent beta","A wiki, a continuously updated template without formal versioning"

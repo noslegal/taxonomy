@@ -1,0 +1,9 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples,Type ,First side,Second side
+ls-c,,,A type of connection which a subject has with another subject,,,,,,
+ls-c-1,Representation,ls-c,"One person representing another in, for example, litigation or a transaction. For instance, a law firm representing its client.",,,,Transitive,represents,is represented by
+ls-c-2,Working,ls-c,"A person who works for another person, whether as an employee or otherwise and whether exclusively or not.",,,,Transitive,works for,is worked for by
+ls-c-3,Interest,ls-c,Having an ownership or other interest in some property or in an organisation.,,,,Transitive,has an interest in,is subject to an interest of
+ls-c-3.1,Ownership,ls-c-3,"A subtype of interest, in which one person entirely owns property or an organisation.",,,,Transitive,owns,is owned by
+ls-c-4,Relationship,ls-c,An indication that a person is party to a contract or obligation or process.,,,,Symmetric,is a party to,has as a party
+ls-c-4.1,Liability,ls-c-4,"A subtype of relationship, indicating the direction of the highlighted right and obligation",,,,Transitive,has an obligation to,has a right against
+ls-c-4.1,Contract,ls-c-4,,,,,Symmetric,has a contract with,has a contract with

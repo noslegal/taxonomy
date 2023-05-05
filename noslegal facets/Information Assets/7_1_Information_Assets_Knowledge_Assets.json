@@ -1,0 +1,101 @@
+{
+  "Name": "Knowledge asset",
+  "Code": "lin-k",
+  "Definition": "An information asset which has been identified as containing or reflecting some substantive legal or legal process content of value.\nIf originally created in a matter, it is something identified as having value beyond that specific matter.",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Legal source",
+      "Code": "lin-k-1",
+      "Definition": "An official resource containing law or guidance as to how it is interpreted or applied",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Legislation",
+          "Code": "lin-k-1.1",
+          "Definition": "A statute or regulation laying down rules with legally binding effect",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Act, statute, regulation, ordinance, order (legislative or regulatory), code, code of conduct, directive",
+          "children": []
+        },
+        {
+          "Name": "Case report",
+          "Code": "lin-k-1.2",
+          "Definition": "A full report of a case with binding or persuasive effect in interpreting or applying the law, or which at least provides some guidance as to how a relevant court or authority may rule",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Judgment, decision, opinion (judicial), order (in a particular case)",
+          "children": []
+        },
+        {
+          "Name": "Official guidance",
+          "Code": "lin-k-1.3",
+          "Definition": "Material issued by a body with legal authority in a particular area (e.g. a prosecutor or regulator) indicating its policy on topics within its authority",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Policy statement, manual, prosecution guidance, guidelines, handbook, warning notice, guidance notice, explanation, recommendation",
+          "children": []
+        },
+        {
+          "Name": "Policy material",
+          "Code": "lin-k-1.4",
+          "Definition": "Material issued by a body with legal authority in a particular area indicating how it will or may develop its policy in future, or how it proposes that the law in its area should change",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Report (policy), proposal, white paper, green paper, consultation paper, options paper, position paper",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Example",
+      "Code": "lin-k-2",
+      "Definition": "An information asset having some know-how value which serves as a particular example of how something can be done. May have originally been created for an external or internal audience but typically curated for an internal audience, often with redactions to preserve client-confidential information. ",
+      "Notes on definition": "",
+      "Synonyms": "Precedent (in some uses), specimen (in some uses)",
+      "Examples": "An executed contract, a letter, a steps plan for a transaction",
+      "children": []
+    },
+    {
+      "Name": "Template",
+      "Code": "lin-k-3",
+      "Definition": "An information asset having some know-how value which provides a generic starting point for creating matter-specific information assets or otherwise delivering legal work. Often designed for an internal audience.",
+      "Notes on definition": "",
+      "Synonyms": "Standard, pro-forma, model form, style (in Scotland), precedent (in some uses), specimen (in some uses)",
+      "Examples": "A template of a document (e.g. a contract or pleading) whether in document (e.g. Word) or automated (document assembly) format. A template of a process whether in document (e.g. Visio) or automated (case management / collaboration software) format.",
+      "children": []
+    },
+    {
+      "Name": "Guide",
+      "Code": "lin-k-4",
+      "Definition": "Information assets created to help legal professionals to address a particular topic. May be associated with examples or templates, or may be freestanding. \nNote: These are more detailed and specific than training materials, but may contain elements of training (e.g. in their introductory sections). Often designed for an internal audience.",
+      "Notes on definition": "",
+      "Synonyms": "Guidance, guidance note, practice note, drafting note",
+      "Examples": "A note supporting use of a particular template, a note on how to address a particular issue",
+      "children": []
+    },
+    {
+      "Name": "Training material",
+      "Code": "lin-k-5",
+      "Definition": "Assets created to introduce a topic or to provide updates or new perspectives on a topic, whether for an internal or external audience. \nNote: While the distinction between guidance and training materials is a matter of judgement, training materials are focused on introducing a topic or development, whereas guidance goes into practical detail on how to address a particular topic.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "A script for delivering training on a particular topic, slides or a note for a lecture or seminar, a video or podcast, an introductory article. ",
+      "children": []
+    },
+    {
+      "Name": "Legal update",
+      "Code": "lin-k-6",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": []
+    }
+  ]
+}

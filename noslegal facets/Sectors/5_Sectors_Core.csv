@@ -1,0 +1,60 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples,NACE section / division,NACE name
+lse,Sector,,"Sectors, industries and subdivisions selected as relevant to legal work ",,,,,
+lse-agr,Agriculture,lse,,,"Farming, Forestry and Fishing",,A,"Agriculture, Forestry and Fishing"
+lse-etv,Natural resources,lse,,,Extractive Industries,,B,Mining and Quarrying
+lse-etv-1,Mining,lse-etv,,Includes quarrying,,,"05,07,08,09",Mining of coal and lignite; Mining of metal ores; Other mining and quarrying; Mining support service activities
+lse-etv-2,Upstream oil and gas,lse-etv,,"Covers only production, not distribution, processing or sale",,,06,Extraction of crude petroleum and natural gas
+lse-mfg,Manufacturing,lse,,"Covers only production, not design, distribution or sale. Only selected aspects widely seen in law firm taxonomies have been broken out as noslegal core elements. Other elements from NACE are contained in XP1.",,,C,Manufacturing
+lse-mfg-1,Food and drink,lse-mfg,,Includes human and animal food manufacture and processing. Includes production of soft and alcoholic drinks.,Food processing and drinks industry,,"10,11",Manufacture of food products; manufacture of beverages
+lse-mfg-2,Textiles,lse-mfg,,"Includes basic textiles, carpets, fashion, bags and footwear",Clothes and textiles,,"13,14",Manufacture of textiles; manufacture of wearing apparel
+lse-mfg-2.1,Fashion,lse-mfg-2,,,,,-,
+lse-mfg-3,Chemicals,lse-mfg,,"Includes petrochemicals and other chemicals. But excludes medicinal chemicals, which are included in pharmaceuticals",,,"19,20",Manufacture of coke and refined petrochemical products; Manufacture of chemicals and chemical products
+lse-mfg-4,Pharmaceuticals,lse-mfg,,,,,21,Manufacture of basic pharmaceutical products and pharmaceutical preparations
+lse-mfg-5,Electronics,lse-mfg,,"Includes chips and computers, excludes IoT products which fall into more traditional categories",,,"26,27","Manufacture of computer, electronic and optical products; Manufacture of electrical equipment"
+lse-mfg-6,Machinery,lse-mfg,,Residual category for machinery not elsewhere classified. Includes agricultural and industrial machinery. But excludes computers and vehicles,,,28,Manufacture of machinery and equipment n.e.c. (not elsewhere classified)
+lse-mfg-7,Vehicles,lse-mfg,,"Includes cars, buses, trucks, trains, aircraft, watercraft and spacecraft. Includes both civil and military vehicles",Transport equipment,,"29,30","Manufacture of motor vehicles, trailers and semi-trailers; Manufacture of other transport equipment"
+lse-mfg-7.1,Automotive,lse-mfg-7,,"Includes cars, buses and trucks",,,29,"Manufacture of motor vehicles, trailers and semi-trailers"
+lse-ens,Energy supply,lse,,"Includes supply of electricity, gas, steam and air conditioning",,,D,"Electricity, Gas, Steam and Air Conditioning Supply"
+lse-ens-1,Electricity,lse-ens,,"Electricity production, transmission, distribution and trading",,,35.1,"Electric power generation, transmission and distribution"
+lse-ens-1.1,Renewable electricity,lse-ens-1,,Renewable electricity production,,,35.12,Production of electricity from renewable sources
+lse-ens-2,Gas,lse-ens,,"Includes synthetic gas production, and distribution and trading of natural and synthetic gas via mains. Excludes (1) production of natural gas (see Upstream oil and gas) (2) manufacture of petrochemicals (see Chemicals) (3) distribution and trading other than via mains (see Trade) (4) operation of gas pipelines (in Transport services).",,,35.2,Manufacture of gas; distribution of gaseous fuels through mains
+lse-wtr,Water,lse,,"Includes water management and supply, sewerage and waste management",Water and waste,,E,"Water Supply; Sewerage, Waste Management and Remediation Activities"
+lse-csn,Construction,lse,,,,,F,Construction
+lse-csn-1,Building,lse-csn,,Includes construction of residential and non-residential buildings,,,41,Construction of residential and non-residential buildings
+lse-csn-2,Infrastructure,lse-csn,,Includes construction of transport and utility infrastructure,Civil engineering,,42,Civil engineering
+lse-trd,Trade,lse,,,,,G,Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles
+lse-trd-1,Wholesale,lse-trd,,,,,46,Wholesale trade
+lse-trd-2,Retail,lse-trd,,,,,47,Retail trade
+lse-trn,Transport services,lse,,"Includes human transportation, freight and logistics, transport via pipeline, storage, postal and courier services",Transportation and storage,,H,Transportation and Storage
+lse-trn-1,Rail,lse-trn,,Includes passenger and freight transport by train. Includes rail-based urban mobility such as underground and tram services,,,"49.1,49.2",Passenger rail transport; freight rail transport
+lse-trn-2,Road transport,lse-trn,,"Includes bus, taxi, ride-share and road freight services",,,"49.3, 49.4",Other passenger land transport; freight transport by road and removal services
+lse-trn-3,Water transport,lse-trn,,"Includes sea, lake and river services for passengers and freight",,,50,Water transport
+lse-trn-4,Aviation,lse-trn,,Includes air passenger and freight services,,,51,Air transport
+lse-trn-4.1,Space transport,lse-trn-4,,Includes satellite-related services,,,51.22,Space transport
+lse-afs,Hospitality services,lse,,"Includes hotels and other accommodation services. Also includes on-premises drink services (e.g. bars) and food delivery services. The term 'Hospitality services' is offered for succinctness, to avoid a cumbersome term such as 'Accommodation, and food and beverage services.' Some law firms use older terminology such as 'hotels and restaurants' so this is offered as an alternative term.",Hotels and restaurants,,I,Accommodation and Food Service Activities
+lse-ins,Information services,lse,,,,,"J, K, S","Publishing, Broadcasting and Content Production and Distribution Activities; Telecommunications, Computer Programming, Consulting, Computing Infrastructure and Other Information Service Activities"
+lse-ins-1,Software and data,lse-ins,,"Includes all types of software development and distribution, except those within Video games or Content industry.  Includes data processing, infrastructure as a service and computer programming consulting services. Also includes information services (e.g. database access) other than those within Content.",,,"58.29, 62, 63","Other software publishing; computer programming, consultancy and related activities; computing infrastructure, data processing, hosting and other information service activities"
+lse-ins-2,Content industry,lse-ins,,"Includes production and publishing of books, film, TV, music and radio. Also includes literary, visual, musical, performing, other art forms, museums and other cultural activities. ",,,"58.1, 58.21, 59, 60, 90","Publishing of books, newspapers and other publishing activities, except software publishing; motion picture, video and television programme production, sound recording and music publishing activities; programming, broadcasting, news agency and other content distribution activities; arts creation and performing arts activities; libraries, archives, museums and other cultural activities"
+lse-ins-2.1,Computer games,lse-ins-2,,"Separated out from other software (lse-inf-1) and content (lse-inf-2) given its economic significance, and specialisation in it by some lawyers. Excludes gambling games (lse-icr-5)",Video games,,58.21,Publishing of video games
+lse-ins-2.2,"Films, TV and video",lse-ins-2,,"Any form of recorded or broadcast moving images, excluding in relation to sports",,,59.1 ex sports,"Motion picture, video and television programme activities"
+lse-ins-2.3,Music and audio,lse-ins-2,,"Any form of recorded or broadcast sound without images, excluding in relation to sports",,,59.2 ex sports,Sound recording and music publishing activities
+lse-ins-2.4,Arts and culture,lse-ins-2,,"Other art and cultural activities not otherwise covered. Includes painting, sculpture, live music, theatre, opera, ballet, museums and digital versions of these.",,,"90, 91","Arts creation and performing arts activities; libraries, archives, museums and other cultural activities"
+nsf-ins-3,Telecoms,lse-ins,,"Includes wired and mobile services, whether terrestrial or satellite. Also includes telecom services reselling.",,,61,Telecommunications
+lse-ins-4,Sports,lse-ins,,"Includes operating sports and fitness facilities, clubs and events. A departure from NACE is that this noslegal definition includes broadcasts or recordings relating to sports",,,93.1,Sports activities
+lse-ins-5,Gambling,lse-ins,,"Includes casinos, betting shops, online games and other forms of gambling or betting.",,,92,Gambling and betting
+lse-fsv,Financial services,lse,,Only selected elements are broken down in this core sectoral taxonomy. Further breakdowns are contained in XP1.,,,L,Financial and Insurance Activities
+lse-fsv-1,Insurance,lse-fsv,,"All types of insurance, including related activities such as insurance broking and loss adjustment",,,"65.1, 65.2, 66.2","Insurance, reinsurance and related activities, excluding compulsory social security"
+lse-fsv-2,Pension funds,lse-fsv,,Pension funds and their management,,,65.3,Pension funding
+lse-fsv-3,Investment funds,lse-fsv,,"Funds and their management, other than pension funds",,,64.3 and 66.3,"Activities of trusts, funds and similar financial entities"
+lse-fsv-4,Banking,lse-fsv,,"Includes deposit-taking and credit-granting, including by people and organisations which are not strictly banks.",,,"64.19, 64.9","Other monetary intermediation; Other financial service activities, except insurance and pension funding"
+lse-fsv-5,Financial markets,lse-fsv,,"Includes capital markets, commodity markets, money markets, foreign exchange markets and derivatives markets",,,Parts of 66,Activities auxiliary to financial services and insurance activities
+lse-fsv-6,Private wealth,lse-fsv,,"Includes private trusts, family offices, private banking and investment advice to individuals",,,Parts of 66,Activities auxiliary to financial services and insurance activities
+lse-rst,Real estate,lse,,"Includes buying and leasing real estate, but not (1) accommodation services - lse-afs or (2) construction - lse-csn",,,M,Real Estate Activities
+lse-rst-1,Commercial property,lse-rst,,"Industrial, commercial, retail and other non-residential buildings and sites, including sites used for mining, drilling or other extractive purposes.",,,Parts of 68,
+lse-rst-2,Residential property,lse-rst,,Includes investing and business operation of residential property as well as individuals buying and leasing property for their own occupation,,,Parts of 69,
+lse-rst-3,Rural land,lse-rst,,"Real estate valued primarily for its agricultural, forestry, recreational or environmental characteristics rather than for buildings or extractive uses.",,,Parts of 70,
+lse-edu,Education,lse,,,,,P,Education
+lse-cre,Care,lse,,,,,Q,Human Health and Social Work Activities
+lse-cre-1,Healthcare,lse-cre,,"Includes doctors, hospital, nursing, psychiatry, physiotherapy and other medical or health services ",,,86,Human health activities
+lse-cre-2,Social care,lse-cre,,Includes residential and non-residential social care. Excludes healthcare.,,,"87, 88",Residential care activities; social work activities without accommodation
+lse-ser,Other services,lse,,"Professional, business and other services not classified elsewhere",,,"N, O, T","Professional, Scientific and Technical activities; Administrative and Support Service Activities; Other Service Activities"

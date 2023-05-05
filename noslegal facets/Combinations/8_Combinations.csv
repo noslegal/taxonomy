@@ -1,0 +1,17 @@
+Code,Level,Combination name,Parent,Alternative name,First component,First component code,Connector,Other component(s),Other component code(s)
+lco-1,1,Financial Regulatory,,,Financial,,and,"Regulation, Work","law-reg, lw"
+lco-1.1,2,Financial Regulatory - Contentious,lco-1,,Financial Regulatory,lco-1,and,Resolving,lw-res
+lco-1.2,2,Insurance Regulatory,lco-1,,Financial Regulatory,lco-1,and,Insurance,lse-fsv-1
+lco-1.3,2,Banking Regulatory,lco-1,,Financial Regulatory,lco-1,and,Banking,lse-fsv-4
+lco-2,1,Real Estate Practices,,,Real Estate,lse-rst,,Work,lw
+lco-2.1,2,Real Estate Disputes,lco-2,,Real Estate,lse-rst,and,Disputes,lw-res-1
+lco-2.1.1,3,Real Estate Litigation,lco-2.1,,Real Estate Disputes,lse-rst,and,Litigation,lw-res-1.2
+lco-2.2,2,Real Estate Transactions and Finance,lco-2,,Real Estate,lse-rst,and,Transacting,lw-tra
+lco-2.2.1,3,Real Estate Transactions,lco-2.2,,Real Estate,lse-rst,and,"Establishing, changing, transferring","lw-tra-1, lw-tra-2, lw-tra-3"
+lco-2.2.2,3,Real Estate Finance,lco-2.2,,Real Estate,lse-rst,and,Financing,lw-tra-4
+lco-3,1,Regional Litigation Practices,,,,,,,
+lco-3.1,2,English Litigation,lco-3,,Litigation,lw-res-1.2,involves a legal process in,England,GB-EAW
+lco-3.2,2,New York Litigation,lco-3,,Litigation,lw-res-1.2,involves a legal process in,New York,US-NY
+lco-4,1,Corporate Practices,,,,,,,
+lco-4.1,1,Corporate Finance,lco-4,,Financing,lw-tra-4,and,Organisation,ls-per-3
+lco-4.2,1,M&A,lco-4,Mergers and acquisitions,Transferring,lw-tra-3,and,Organisation,ls-per-3

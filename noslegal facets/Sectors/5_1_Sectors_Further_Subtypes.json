@@ -1,0 +1,1041 @@
+{
+  "Name": "Sector",
+  "Code": "lse",
+  "Definition": "",
+  "Notes on definition": "Sectors, industries and subdivisions selected as relevant to legal work ",
+  "Synonyms": "",
+  "Examples": "",
+  "NACE section / division": "",
+  "NACE name": "",
+  "children": [
+    {
+      "Name": "Agriculture",
+      "Code": "lse-agr",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "Farming, Forestry and Fishing",
+      "Examples": "",
+      "NACE section / division": "A",
+      "NACE name": "Agriculture, Forestry and Fishing",
+      "children": [
+        {
+          "Name": "Farming",
+          "Code": "lse-agr-1",
+          "Definition": "",
+          "Notes on definition": "Includes crops; animal rearing and slaughter; milk and wool production; seed processing; hunting and trapping. Excludes food processing - see lse-mfg",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "1",
+          "NACE name": "Crop and animal production, hunting and related service activities",
+          "children": []
+        },
+        {
+          "Name": "Fishing",
+          "Code": "lse-agr-2",
+          "Definition": "",
+          "Notes on definition": "Includes fish farming and other aquaculture",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "3",
+          "NACE name": "Fishing and aquaculture",
+          "children": []
+        },
+        {
+          "Name": "Fishing",
+          "Code": "lse-agr-2",
+          "Definition": "",
+          "Notes on definition": "Includes fish farming and other aquaculture",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "3",
+          "NACE name": "Fishing and aquaculture",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Natural resources",
+      "Code": "lse-etv",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "Extractive Industries",
+      "Examples": "",
+      "NACE section / division": "B",
+      "NACE name": "Mining and Quarrying",
+      "children": [
+        {
+          "Name": "Mining",
+          "Code": "lse-etv-1",
+          "Definition": "",
+          "Notes on definition": "Includes quarrying",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "05,07,08,09",
+          "NACE name": "Mining of coal and lignite; Mining of metal ores; Other mining and quarrying; Mining support service activities",
+          "children": []
+        },
+        {
+          "Name": "Upstream oil and gas",
+          "Code": "lse-etv-2",
+          "Definition": "",
+          "Notes on definition": "Covers only production, not distribution, processing or sale",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "06",
+          "NACE name": "Extraction of crude petroleum and natural gas",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Manufacturing",
+      "Code": "lse-mfg",
+      "Definition": "",
+      "Notes on definition": "Covers only production, not design, distribution or sale. Only selected aspects widely seen in law firm taxonomies have been broken out as noslegal core elements. Other elements from NACE are contained in XP1.",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "C",
+      "NACE name": "Manufacturing",
+      "children": [
+        {
+          "Name": "Food and drink",
+          "Code": "lse-mfg-1",
+          "Definition": "",
+          "Notes on definition": "Includes human and animal food manufacture and processing. Includes production of soft and alcoholic drinks.",
+          "Synonyms": "Food processing and drinks industry",
+          "Examples": "",
+          "NACE section / division": "10,11",
+          "NACE name": "Manufacture of food products; manufacture of beverages",
+          "children": []
+        },
+        {
+          "Name": "Textiles",
+          "Code": "lse-mfg-2",
+          "Definition": "",
+          "Notes on definition": "Includes basic textiles, carpets, fashion, bags and footwear",
+          "Synonyms": "Clothes and textiles",
+          "Examples": "",
+          "NACE section / division": "13,14",
+          "NACE name": "Manufacture of textiles; manufacture of wearing apparel",
+          "children": [
+            {
+              "Name": "Fashion",
+              "Code": "lse-mfg-2.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "-",
+              "NACE name": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Chemicals",
+          "Code": "lse-mfg-3",
+          "Definition": "",
+          "Notes on definition": "Includes petrochemicals and other chemicals. But excludes medicinal chemicals, which are included in pharmaceuticals",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "19,20",
+          "NACE name": "Manufacture of coke and refined petrochemical products; Manufacture of chemicals and chemical products",
+          "children": []
+        },
+        {
+          "Name": "Pharmaceuticals",
+          "Code": "lse-mfg-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "21",
+          "NACE name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+          "children": []
+        },
+        {
+          "Name": "Electronics",
+          "Code": "lse-mfg-5",
+          "Definition": "",
+          "Notes on definition": "Includes chips and computers, excludes IoT products which fall into more traditional categories",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "26,27",
+          "NACE name": "Manufacture of computer, electronic and optical products; Manufacture of electrical equipment",
+          "children": []
+        },
+        {
+          "Name": "Machinery",
+          "Code": "lse-mfg-6",
+          "Definition": "",
+          "Notes on definition": "Residual category for machinery not elsewhere classified. Includes agricultural and industrial machinery. But excludes computers and vehicles",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "28",
+          "NACE name": "Manufacture of machinery and equipment n.e.c. (not elsewhere classified)",
+          "children": []
+        },
+        {
+          "Name": "Vehicles",
+          "Code": "lse-mfg-7",
+          "Definition": "",
+          "Notes on definition": "Includes cars, buses, trucks, trains, aircraft, watercraft and spacecraft. Includes both civil and military vehicles",
+          "Synonyms": "Transport equipment",
+          "Examples": "",
+          "NACE section / division": "29,30",
+          "NACE name": "Manufacture of motor vehicles, trailers and semi-trailers; Manufacture of other transport equipment",
+          "children": [
+            {
+              "Name": "Automotive",
+              "Code": "lse-mfg-7.1",
+              "Definition": "",
+              "Notes on definition": "Includes cars, buses and trucks",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "29",
+              "NACE name": "Manufacture of motor vehicles, trailers and semi-trailers",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Tobacco products",
+          "Code": "lse-mfg-10",
+          "Definition": "",
+          "Notes on definition": "Includes cigarettes but not vaping products (classified as chemicals)",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "12",
+          "NACE name": "Manufacture of tobacco products",
+          "children": []
+        },
+        {
+          "Name": "Leather products",
+          "Code": "lse-mfg-11",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "15",
+          "NACE name": "Manufacture of leather and related products of other materials",
+          "children": []
+        },
+        {
+          "Name": "Wood products",
+          "Code": "lse-mfg-12",
+          "Definition": "",
+          "Notes on definition": "Except furniture",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "16",
+          "NACE name": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+          "children": []
+        },
+        {
+          "Name": "Paper products",
+          "Code": "lse-mfg-13",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "17",
+          "NACE name": "Manufacture of paper and paper products",
+          "children": []
+        },
+        {
+          "Name": "Recorded media",
+          "Code": "lse-mfg-14",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "18",
+          "NACE name": "Printing and reproduction of recorded media",
+          "children": []
+        },
+        {
+          "Name": "Rubber and plastic products",
+          "Code": "lse-mfg-15",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "22",
+          "NACE name": "Manufacture of rubber and plastic products",
+          "children": []
+        },
+        {
+          "Name": "Non-metallic mineral products",
+          "Code": "lse-mfg-16",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "23",
+          "NACE name": "Manufacture of other non-metallic mineral products",
+          "children": []
+        },
+        {
+          "Name": "Metal products",
+          "Code": "lse-mfg-17",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "24,25",
+          "NACE name": "Manufacture of basic metals; manufacture of fabricated metal products, except machinery and equipment",
+          "children": []
+        },
+        {
+          "Name": "Furniture",
+          "Code": "lse-mfg-18",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "31",
+          "NACE name": "Manufacture of furniture",
+          "children": []
+        },
+        {
+          "Name": "Other manufacturing",
+          "Code": "lse-mfg-19",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "32",
+          "NACE name": "Other manufacturing",
+          "children": []
+        },
+        {
+          "Name": "Repair",
+          "Code": "lse-mfg-20",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "33",
+          "NACE name": "Repair, maintenance and installation of machinery and equipment",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Energy supply",
+      "Code": "lse-ens",
+      "Definition": "",
+      "Notes on definition": "Includes supply of electricity, gas, steam and air conditioning",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "D",
+      "NACE name": "Electricity, Gas, Steam and Air Conditioning Supply",
+      "children": [
+        {
+          "Name": "Electricity",
+          "Code": "lse-ens-1",
+          "Definition": "",
+          "Notes on definition": "Electricity production, transmission, distribution and trading",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "35.1",
+          "NACE name": "Electric power generation, transmission and distribution",
+          "children": [
+            {
+              "Name": "Renewable electricity",
+              "Code": "lse-ens-1.1",
+              "Definition": "",
+              "Notes on definition": "Renewable electricity production",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "35.12",
+              "NACE name": "Production of electricity from renewable sources",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Gas",
+          "Code": "lse-ens-2",
+          "Definition": "",
+          "Notes on definition": "Includes synthetic gas production, and distribution and trading of natural and synthetic gas via mains. Excludes (1) production of natural gas (see Upstream oil and gas) (2) manufacture of petrochemicals (see Chemicals) (3) distribution and trading other than via mains (see Trade) (4) operation of gas pipelines (in Transport services).",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "35.2",
+          "NACE name": "Manufacture of gas; distribution of gaseous fuels through mains",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Water",
+      "Code": "lse-wtr",
+      "Definition": "",
+      "Notes on definition": "Includes water management and supply, sewerage and waste management",
+      "Synonyms": "Water and waste",
+      "Examples": "",
+      "NACE section / division": "E",
+      "NACE name": "Water Supply; Sewerage, Waste Management and Remediation Activities",
+      "children": []
+    },
+    {
+      "Name": "Construction",
+      "Code": "lse-csn",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "F",
+      "NACE name": "Construction",
+      "children": [
+        {
+          "Name": "Building",
+          "Code": "lse-csn-1",
+          "Definition": "",
+          "Notes on definition": "Includes construction of residential and non-residential buildings",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "41",
+          "NACE name": "Construction of residential and non-residential buildings",
+          "children": []
+        },
+        {
+          "Name": "Infrastructure",
+          "Code": "lse-csn-2",
+          "Definition": "",
+          "Notes on definition": "Includes construction of transport and utility infrastructure",
+          "Synonyms": "Civil engineering",
+          "Examples": "",
+          "NACE section / division": "42",
+          "NACE name": "Civil engineering",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Trade",
+      "Code": "lse-trd",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "G",
+      "NACE name": "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+      "children": [
+        {
+          "Name": "Wholesale",
+          "Code": "lse-trd-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "46",
+          "NACE name": "Wholesale trade",
+          "children": []
+        },
+        {
+          "Name": "Retail",
+          "Code": "lse-trd-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "47",
+          "NACE name": "Retail trade",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Transport services",
+      "Code": "lse-trn",
+      "Definition": "",
+      "Notes on definition": "Includes human transportation, freight and logistics, transport via pipeline, storage, postal and courier services",
+      "Synonyms": "Transportation and storage",
+      "Examples": "",
+      "NACE section / division": "H",
+      "NACE name": "Transportation and Storage",
+      "children": [
+        {
+          "Name": "Rail",
+          "Code": "lse-trn-1",
+          "Definition": "",
+          "Notes on definition": "Includes passenger and freight transport by train. Includes rail-based urban mobility such as underground and tram services",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "49.1,49.2",
+          "NACE name": "Passenger rail transport; freight rail transport",
+          "children": []
+        },
+        {
+          "Name": "Road transport",
+          "Code": "lse-trn-2",
+          "Definition": "",
+          "Notes on definition": "Includes bus, taxi, ride-share and road freight services",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "49.3, 49.4",
+          "NACE name": "Other passenger land transport; freight transport by road and removal services",
+          "children": []
+        },
+        {
+          "Name": "Water transport",
+          "Code": "lse-trn-3",
+          "Definition": "",
+          "Notes on definition": "Includes sea, lake and river services for passengers and freight",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "50",
+          "NACE name": "Water transport",
+          "children": []
+        },
+        {
+          "Name": "Aviation",
+          "Code": "lse-trn-4",
+          "Definition": "",
+          "Notes on definition": "Includes air passenger and freight services",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "51",
+          "NACE name": "Air transport",
+          "children": [
+            {
+              "Name": "Space transport",
+              "Code": "lse-trn-4.1",
+              "Definition": "",
+              "Notes on definition": "Includes satellite-related services",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "51.22",
+              "NACE name": "Space transport",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Hospitality services",
+      "Code": "lse-afs",
+      "Definition": "",
+      "Notes on definition": "Includes hotels and other accommodation services. Also includes on-premises drink services (e.g. bars) and food delivery services. The term 'Hospitality services' is offered for succinctness, to avoid a cumbersome term such as 'Accommodation, and food and beverage services.' Some law firms use older terminology such as 'hotels and restaurants' so this is offered as an alternative term.",
+      "Synonyms": "Hotels and restaurants",
+      "Examples": "",
+      "NACE section / division": "I",
+      "NACE name": "Accommodation and Food Service Activities",
+      "children": []
+    },
+    {
+      "Name": "Information services",
+      "Code": "lse-ins",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "J, K, S",
+      "NACE name": "Publishing, Broadcasting and Content Production and Distribution Activities; Telecommunications, Computer Programming, Consulting, Computing Infrastructure and Other Information Service Activities",
+      "children": [
+        {
+          "Name": "Software and data",
+          "Code": "lse-ins-1",
+          "Definition": "",
+          "Notes on definition": "Includes all types of software development and distribution, except those within Video games or Content industry.  Includes data processing, infrastructure as a service and computer programming consulting services. Also includes information services (e.g. database access) other than those within Content.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "58.29, 62, 63",
+          "NACE name": "Other software publishing; computer programming, consultancy and related activities; computing infrastructure, data processing, hosting and other information service activities",
+          "children": []
+        },
+        {
+          "Name": "Content industry",
+          "Code": "lse-ins-2",
+          "Definition": "",
+          "Notes on definition": "Includes production and publishing of books, film, TV, music and radio. Also includes literary, visual, musical, performing, other art forms, museums and other cultural activities. ",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "58.1, 58.21, 59, 60, 90",
+          "NACE name": "Publishing of books, newspapers and other publishing activities, except software publishing; motion picture, video and television programme production, sound recording and music publishing activities; programming, broadcasting, news agency and other content distribution activities; arts creation and performing arts activities; libraries, archives, museums and other cultural activities",
+          "children": [
+            {
+              "Name": "Computer games",
+              "Code": "lse-ins-2.1",
+              "Definition": "",
+              "Notes on definition": "Separated out from other software (lse-inf-1) and content (lse-inf-2) given its economic significance, and specialisation in it by some lawyers. Excludes gambling games (lse-icr-5)",
+              "Synonyms": "Video games",
+              "Examples": "",
+              "NACE section / division": "58.21",
+              "NACE name": "Publishing of video games",
+              "children": []
+            },
+            {
+              "Name": "Films, TV and video",
+              "Code": "lse-ins-2.2",
+              "Definition": "",
+              "Notes on definition": "Any form of recorded or broadcast moving images, excluding in relation to sports",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "59.1 ex sports",
+              "NACE name": "Motion picture, video and television programme activities",
+              "children": []
+            },
+            {
+              "Name": "Music and audio",
+              "Code": "lse-ins-2.3",
+              "Definition": "",
+              "Notes on definition": "Any form of recorded or broadcast sound without images, excluding in relation to sports",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "59.2 ex sports",
+              "NACE name": "Sound recording and music publishing activities",
+              "children": []
+            },
+            {
+              "Name": "Arts and culture",
+              "Code": "lse-ins-2.4",
+              "Definition": "",
+              "Notes on definition": "Other art and cultural activities not otherwise covered. Includes painting, sculpture, live music, theatre, opera, ballet, museums and digital versions of these.",
+              "Synonyms": "",
+              "Examples": "",
+              "NACE section / division": "90, 91",
+              "NACE name": "Arts creation and performing arts activities; libraries, archives, museums and other cultural activities",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Telecoms",
+          "Code": "nsf-ins-3",
+          "Definition": "",
+          "Notes on definition": "Includes wired and mobile services, whether terrestrial or satellite. Also includes telecom services reselling.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "61",
+          "NACE name": "Telecommunications",
+          "children": []
+        },
+        {
+          "Name": "Sports",
+          "Code": "lse-ins-4",
+          "Definition": "",
+          "Notes on definition": "Includes operating sports and fitness facilities, clubs and events. A departure from NACE is that this noslegal definition includes broadcasts or recordings relating to sports",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "93.1",
+          "NACE name": "Sports activities",
+          "children": []
+        },
+        {
+          "Name": "Gambling",
+          "Code": "lse-ins-5",
+          "Definition": "",
+          "Notes on definition": "Includes casinos, betting shops, online games and other forms of gambling or betting.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "92",
+          "NACE name": "Gambling and betting",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Financial services",
+      "Code": "lse-fsv",
+      "Definition": "",
+      "Notes on definition": "Only selected elements are broken down in this core sectoral taxonomy. Further breakdowns are contained in XP1.",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "L",
+      "NACE name": "Financial and Insurance Activities",
+      "children": [
+        {
+          "Name": "Insurance",
+          "Code": "lse-fsv-1",
+          "Definition": "",
+          "Notes on definition": "All types of insurance, including related activities such as insurance broking and loss adjustment",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "65.1, 65.2, 66.2",
+          "NACE name": "Insurance, reinsurance and related activities, excluding compulsory social security",
+          "children": []
+        },
+        {
+          "Name": "Life insurance",
+          "Code": "lse-fsv-1.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "65.11",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Non-life insurance",
+          "Code": "lse-fsv-1.2",
+          "Definition": "",
+          "Notes on definition": "Includes general and specialist insurance",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "65.12",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Reinsurance",
+          "Code": "lse-fsv-1.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "65.2",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Pension funds",
+          "Code": "lse-fsv-2",
+          "Definition": "",
+          "Notes on definition": "Pension funds and their management",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "65.3",
+          "NACE name": "Pension funding",
+          "children": []
+        },
+        {
+          "Name": "Investment funds",
+          "Code": "lse-fsv-3",
+          "Definition": "",
+          "Notes on definition": "Funds and their management, other than pension funds",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "64.3 and 66.3",
+          "NACE name": "Activities of trusts, funds and similar financial entities",
+          "children": []
+        },
+        {
+          "Name": "Private equity",
+          "Code": "lse-fsv-3.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Venture capital",
+          "Code": "lse-fsv-3.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Hedge funds",
+          "Code": "lse-fsv-3.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Credit funds",
+          "Code": "lse-fsv-3.4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Real estate funds",
+          "Code": "lse-fsv-3.5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Banking",
+          "Code": "lse-fsv-4",
+          "Definition": "",
+          "Notes on definition": "Includes deposit-taking and credit-granting, including by people and organisations which are not strictly banks.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "64.19, 64.9",
+          "NACE name": "Other monetary intermediation; Other financial service activities, except insurance and pension funding",
+          "children": []
+        },
+        {
+          "Name": "Business banking",
+          "Code": "lse-fsv-4.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Retail banking",
+          "Code": "lse-fsv-4.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Consumer credit",
+          "Code": "lse-fsv-4.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Financial markets",
+          "Code": "lse-fsv-5",
+          "Definition": "",
+          "Notes on definition": "Includes capital markets, commodity markets, money markets, foreign exchange markets and derivatives markets",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "Parts of 66",
+          "NACE name": "Activities auxiliary to financial services and insurance activities",
+          "children": []
+        },
+        {
+          "Name": "Capital markets",
+          "Code": "lse-fsv-5.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Commodity markets",
+          "Code": "lse-fsv-5.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Money markets",
+          "Code": "lse-fsv-5.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Derivatives markets",
+          "Code": "lse-fsv-5.4",
+          "Definition": "",
+          "Notes on definition": "Includes futures markets",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Foreign exchange markets",
+          "Code": "lse-fsv-5.5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "OTC markets",
+          "Code": "lse-fsv-5.6",
+          "Definition": "",
+          "Notes on definition": "Markets for 'over-the-counter' bilateral trading in securities not listed on a recognised exchange",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Private wealth",
+          "Code": "lse-fsv-6",
+          "Definition": "",
+          "Notes on definition": "Includes private trusts, family offices, private banking and investment advice to individuals",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "Parts of 66",
+          "NACE name": "Activities auxiliary to financial services and insurance activities",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Real estate",
+      "Code": "lse-rst",
+      "Definition": "",
+      "Notes on definition": "Includes buying and leasing real estate, but not (1) accommodation services - lse-afs or (2) construction - lse-csn",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "M",
+      "NACE name": "Real Estate Activities",
+      "children": [
+        {
+          "Name": "Commercial property",
+          "Code": "lse-rst-1",
+          "Definition": "",
+          "Notes on definition": "Industrial, commercial, retail and other non-residential buildings and sites, including sites used for mining, drilling or other extractive purposes.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "Parts of 68",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Residential property",
+          "Code": "lse-rst-2",
+          "Definition": "",
+          "Notes on definition": "Includes investing and business operation of residential property as well as individuals buying and leasing property for their own occupation",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "Parts of 69",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Rural land",
+          "Code": "lse-rst-3",
+          "Definition": "",
+          "Notes on definition": "Real estate valued primarily for its agricultural, forestry, recreational or environmental characteristics rather than for buildings or extractive uses.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "Parts of 70",
+          "NACE name": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Education",
+      "Code": "lse-edu",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "P",
+      "NACE name": "Education",
+      "children": []
+    },
+    {
+      "Name": "Care",
+      "Code": "lse-cre",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "Q",
+      "NACE name": "Human Health and Social Work Activities",
+      "children": [
+        {
+          "Name": "Healthcare",
+          "Code": "lse-cre-1",
+          "Definition": "",
+          "Notes on definition": "Includes doctors, hospital, nursing, psychiatry, physiotherapy and other medical or health services ",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "86",
+          "NACE name": "Human health activities",
+          "children": []
+        },
+        {
+          "Name": "Social care",
+          "Code": "lse-cre-2",
+          "Definition": "",
+          "Notes on definition": "Includes residential and non-residential social care. Excludes healthcare.",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "87, 88",
+          "NACE name": "Residential care activities; social work activities without accommodation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Other services",
+      "Code": "lse-ser",
+      "Definition": "",
+      "Notes on definition": "Professional, business and other services not classified elsewhere",
+      "Synonyms": "",
+      "Examples": "",
+      "NACE section / division": "N, O, T",
+      "NACE name": "Professional, Scientific and Technical activities; Administrative and Support Service Activities; Other Service Activities",
+      "children": [
+        {
+          "Name": "Lawyers ",
+          "Code": "lse-ser-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Legal services",
+          "Examples": "",
+          "NACE section / division": "691",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Accountants",
+          "Code": "lse-ser-2",
+          "Definition": "",
+          "Notes on definition": "Includes tax services",
+          "Synonyms": "Accounting",
+          "Examples": "",
+          "NACE section / division": "692",
+          "NACE name": "",
+          "children": []
+        },
+        {
+          "Name": "Vehicle rental",
+          "Code": "lse-ser-3",
+          "Definition": "",
+          "Notes on definition": "Includes short term (e.g. car hire) and longer term (e.g. car financing) transactions, but not taxis and similar (which are transport services - see ISIC 492)",
+          "Synonyms": "",
+          "Examples": "",
+          "NACE section / division": "77.1",
+          "NACE name": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

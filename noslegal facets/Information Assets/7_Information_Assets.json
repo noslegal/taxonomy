@@ -1,0 +1,55 @@
+{
+  "Name": "Legal information asset",
+  "Code": "lin",
+  "Definition": "Anything in which information of any description is recorded. This includes documents in the widely understood paper or digital sense. But it also extends beyond documents to computerised models, interactive experiences and any other format in which information is embodied.\nNote: The subtypes can be used singly or in combination. For example, a legal instrument may also be an example.",
+  "Notes on definition": "",
+  "Synonyms": "Document, artefact, artifact",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Legal instrument",
+      "Code": "lin-1",
+      "Definition": "Legal information assets which give rise to, or evidence, legal effects.  \nNote: We envisage that a future noslegal release will model types of legal instrument (e.g. contract types), their parts (e.g. clause types) and other features (e.g. language, succinctness, formality, visual).",
+      "Notes on definition": "",
+      "Synonyms": "Instrument",
+      "Examples": "Contract, deed, notice, resolution, pleading, statement of case. Parts of these (e.g. a clause, a map annexed to a legal instrument relating to the transfer of land)",
+      "children": []
+    },
+    {
+      "Name": "Legal analysis",
+      "Code": "lin-2",
+      "Definition": "Legal information assets describing or applying the law, whether for an internal or external audience",
+      "Notes on definition": "",
+      "Synonyms": "Advice, opinion, memorandum, memo, note",
+      "Examples": "Note of advice, expert opinion",
+      "children": []
+    },
+    {
+      "Name": "Process material",
+      "Code": "lin-3",
+      "Definition": "Legal information assets created to support the delivery or project management of a legal service",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Flowchart, flow chart, checklist, process template, process map, steps plans, scope of work, toolkit, tool kit, agenda for common meeting",
+      "children": []
+    },
+    {
+      "Name": "Marketing material",
+      "Code": "lin-4",
+      "Definition": "An information asset used to demonstrate the organisation's legal or other service capabilities to actual or prospective clients and to other interested parties (e.g. media)",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Website, credentials",
+      "children": []
+    },
+    {
+      "Name": "Organisational material",
+      "Code": "lin-5",
+      "Definition": "An information asset describing how this organisation is structured and where work is done",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Org chart, directory, website 'about us' section",
+      "children": []
+    }
+  ]
+}
