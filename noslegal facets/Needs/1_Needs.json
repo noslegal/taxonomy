@@ -1,0 +1,46 @@
+{
+  "Name": "Legal need",
+  "Code": "ln",
+  "Definition": "Concepts to describe large areas of need for lawyers, other people working on legal topics and for the organisations in which they work",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Knowledge and Systems",
+      "Code": "ln-1",
+      "Definition": "Knowledge management, technology and other systems for handling such knowledge. Includes innovation not falling into other top-level categories.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Templates, Forms, Precedents, Styles, Practice guides, Manuals, Flowcharts, Training, Technology, Software",
+      "children": []
+    },
+    {
+      "Name": "Work, Process and Financial",
+      "Code": "ln-2",
+      "Definition": "Planning legal work and getting it done. Includes financial topics such as pricing, budgeting, financial reporting and financial analysis. Also includes project management and process improvement",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Matters, Matter management, Project management Executing, Delivering, Pricing, Budgeting, Reporting to client, Internal reporting, Process improvement",
+      "children": []
+    },
+    {
+      "Name": "Sales and Marketing",
+      "Code": "ln-3",
+      "Definition": "Describing what legal services or information are available. Organising resources produced for this purpose. Preparing a pitch for a particular matter. Preparing and assessing a particular request for proposals. Organising, searching and analysing records of past pitches and proposals.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Credentials, Pitches, Website, Publications, Procurement",
+      "children": []
+    },
+    {
+      "Name": "People and Organisations",
+      "Code": "ln-4",
+      "Definition": "Describing how an organisation handling legal topics is structured, and its relationships with other parts of the organisation or with external organisations. Capturing individuals' experience for various purposes - such as work allocation, marketing and training.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Work allocation, Capacity, Experience, Promotion, Departments, Teams, Cross-functional groups",
+      "children": []
+    }
+  ]
+}

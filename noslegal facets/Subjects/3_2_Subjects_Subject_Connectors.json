@@ -1,0 +1,99 @@
+{
+  "Name": "",
+  "Code": "ls-c",
+  "Definition": "A type of connection which a subject has with another subject",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "Type": "",
+  "First side": "",
+  "Second side": "",
+  "children": [
+    {
+      "Name": "Representation",
+      "Code": "ls-c-1",
+      "Definition": "One person representing another in, for example, litigation or a transaction. For instance, a law firm representing its client.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Type": "Transitive",
+      "First side": "represents",
+      "Second side": "is represented by",
+      "children": []
+    },
+    {
+      "Name": "Working",
+      "Code": "ls-c-2",
+      "Definition": "A person who works for another person, whether as an employee or otherwise and whether exclusively or not.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Type": "Transitive",
+      "First side": "works for",
+      "Second side": "is worked for by",
+      "children": []
+    },
+    {
+      "Name": "Interest",
+      "Code": "ls-c-3",
+      "Definition": "Having an ownership or other interest in some property or in an organisation.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Type": "Transitive",
+      "First side": "has an interest in",
+      "Second side": "is subject to an interest of",
+      "children": [
+        {
+          "Name": "Ownership",
+          "Code": "ls-c-3.1",
+          "Definition": "A subtype of interest, in which one person entirely owns property or an organisation.",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Type": "Transitive",
+          "First side": "owns",
+          "Second side": "is owned by",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Relationship",
+      "Code": "ls-c-4",
+      "Definition": "An indication that a person is party to a contract or obligation or process.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "Type": "Symmetric",
+      "First side": "is a party to",
+      "Second side": "has as a party",
+      "children": [
+        {
+          "Name": "Contract",
+          "Code": "ls-c-4.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Type": "Symmetric",
+          "First side": "has a contract with",
+          "Second side": "has a contract with",
+          "children": []
+        },
+        {
+          "Name": "Contract",
+          "Code": "ls-c-4.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "Type": "Symmetric",
+          "First side": "has a contract with",
+          "Second side": "has a contract with",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

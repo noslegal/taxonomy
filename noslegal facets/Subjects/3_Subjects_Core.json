@@ -1,0 +1,187 @@
+{
+  "Name": "Legal Subjects",
+  "Code": "ls",
+  "Definition": "The subjects of legal work - people, property, organisations; and rights, obligations and powers",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Person",
+      "Code": "ls-per",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Individual",
+          "Code": "ls-per-1",
+          "Definition": "A single living human being",
+          "Notes on definition": "An individual operating under a trading name (a 'sole trader') should be regarded as an individual rather than an organisation. But their trading status can be captured as a role using XP1.",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Family",
+          "Code": "ls-per-2",
+          "Definition": "Humans in a family relationship with each other, whether legally formalised (e.g. marriage, civil partnership, registered as parent, adoption) or not. Includes unmarried couples",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Organisation",
+          "Code": "ls-per-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Corporate body",
+              "Code": "ls-per-3.1",
+              "Definition": "A private, commercial, charitable or not-for-profit entity other than a human which has legal personality and is not part of the state or other public body.",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Most companies",
+              "children": []
+            },
+            {
+              "Name": "Unincorporated body",
+              "Code": "ls-per-3.2",
+              "Definition": "A group of humans with some shared interest, not formalised into a corporate body. This may include traditional communities or charitable / not-for-profit groups. It may also include commercial groups, whether or not with specific legal incidents (e.g. joint liability of partners in an unincorporated partnership).",
+              "Notes on definition": "Families or corporate bodies are excluded from this concept.",
+              "Synonyms": "",
+              "Examples": "Some general partnerships and clubs, though this depends on applicable law",
+              "children": []
+            },
+            {
+              "Name": "Authority",
+              "Code": "ls-per-3.3",
+              "Definition": "A state, international or other body carry out a public or similar (e.g. professional standards) function and exercises governmental or administrative power.",
+              "Notes on definition": "There is inevitably some scope for argument at the edges as to the line between a public entity / authority and the other types of organisation. Different legal systems may draw the line differently. However, the basic distinction is widely recognised.",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Property",
+      "Code": "ls-prp",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Land and buildings",
+          "Code": "ls-prp-1",
+          "Definition": "Land, buildings and any interests in or relating to them (e.g. leases, licences, rights of way, mortgages)",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Tangible property",
+          "Code": "ls-prp-2",
+          "Definition": "Physical things which can be owned, and which are not land or buildings",
+          "Notes on definition": "",
+          "Synonyms": "Goods, thing in possession",
+          "Examples": "Commodities, chattels, personal effects",
+          "children": []
+        },
+        {
+          "Name": "Intangible property",
+          "Code": "ls-prp-3",
+          "Definition": "Anything of a non-physical nature in which property rights are recognised. Includes documents representing such rights.",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Intellectual property, patent, copyright, trade mark, trademark, trade-mark, share, debt portfolio, debenture, derivative, bank account, financial instrument, bill of lading, thing in action, chose in action, crypto asset, cryptocurrency, non-fungible token, NFT",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Obligation",
+      "Code": "ls-obg",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Contracts",
+          "Code": "ls-obg-1",
+          "Definition": "Contractual relationships",
+          "Notes on definition": "Documents and other artifacts containing contract terms are addressed separately",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Non-contractual obligation",
+          "Code": "ls-obg-2",
+          "Definition": "Legal rights and duties of a private law nature, other than those incidental to personal relationships (ls-ppl), property (ls-pty) or contract (ls-obg-1)",
+          "Notes on definition": "Although contract is a well-recognised concept across legal systems, other types of private obligation are harder to map between systems. We suggest this as a useful category to start with - it can be subdivided later if found helpful to do so.",
+          "Synonyms": "",
+          "Examples": "Liabilities, claims",
+          "children": [
+            {
+              "Name": "Tort",
+              "Code": "ls-obg-2.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "Delict",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Restitution",
+              "Code": "ls-obg-2.2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Unjust enrichment, negotiorum gestio",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Public obligation",
+          "Code": "ls-obg-3",
+          "Definition": "Powers of public or quasi-public authorities and officials, and the rights and duties arising between people and organisations (on the one hand) and such authorities or officials.",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Public power",
+              "Code": "ls-obg-3.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Public liability",
+              "Code": "ls-obg-3.2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

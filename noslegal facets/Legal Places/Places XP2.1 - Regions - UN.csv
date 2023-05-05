@@ -1,0 +1,36 @@
+﻿UN Regions,M49 Code,Parent
+Africa,2,
+Americas,19,
+Antartica,10,
+Asia,142,
+Europe,150,
+Oceania,9,
+,,
+UN Sub-Regions,,
+Northern Africa,15,Africa
+Sub-Saharan Africa,202,Africa
+Latin America and the Caribbean,419,Americas
+Northern America,21,Americas
+Central Asia,143,Asia
+Eastern Asia,30,Asia
+South-eastern Asia,35,Asia
+Southern Asia,34,Asia
+Western Asia,145,Asia
+Eastern Europe,151,Europe
+Northern Europe,154,Europe
+Southern Europe,39,Europe
+Western Europe,155,Europe
+Australia and New Zealand,53,Oceania
+Melanesia,54,Oceania
+Micronesia,57,Oceania
+Polynesia,61,Oceania
+,,
+UN Intermediate Regions,,
+Eastern Africa,14,Sub-Saharan Africa
+Middle Africa,17,Sub-Saharan Africa
+Southern Africa,18,Sub-Saharan Africa
+Western Africa,11,Sub-Saharan Africa
+Caribbean,29,Latin America and the Caribbean
+Central America,13,Latin America and the Caribbean
+South America,5,Latin America and the Caribbean
+Channel Islands,830,Northern Europe

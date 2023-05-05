@@ -1,0 +1,51 @@
+{
+  "Name": "Sector",
+  "Code": "lse",
+  "Definition": "Sectors, industries and subdivisions selected as relevant to legal work ",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "Relationship with NACE": "",
+  "children": [
+    {
+      "Name": "Energy",
+      "Code": "lse-enr",
+      "Definition": "",
+      "Notes on definition": "Aggregation of upstream oil and gas (extraction), generation and supply of energy and its transportation",
+      "Synonyms": "",
+      "Examples": "",
+      "Relationship with NACE": "Aggregation of division 6 (extraction of oil and gas) and section D (energy supply) together with elements of distribution, retail and transportation (sections G and H)",
+      "children": []
+    },
+    {
+      "Name": "Consumer goods",
+      "Code": "lse-cmr",
+      "Definition": "",
+      "Notes on definition": "Manufacture, distribution and sale of products targeted at consumers with relatively low cost, including fast-moving consumer goods (FMCG), i.e. those which are purchased and consumed regularly",
+      "Synonyms": "",
+      "Examples": "",
+      "Relationship with NACE": "Aggregation of elements from sections C (manufacturing) and G (wholesale and retail trade)",
+      "children": []
+    },
+    {
+      "Name": "Mobility",
+      "Code": "lse-mob",
+      "Definition": "",
+      "Notes on definition": "Manufacture, distribution, sale and repair of vehicles; construction and maintenance of transport infrastructure; operation of transport services",
+      "Synonyms": "",
+      "Examples": "",
+      "Relationship with NACE": "Aggregation of  divisions 29 and 30 (vehicle manufacture) with elements of division 42 (infrastructure), section H (transportation) and section T  (services, including vehicle rental)",
+      "children": []
+    },
+    {
+      "Name": "Fintech",
+      "Code": "lse-ftc",
+      "Definition": "",
+      "Notes on definition": "Financial services delivered primarily using technology, and the technology itself",
+      "Synonyms": "",
+      "Examples": "",
+      "Relationship with NACE": "Aggregation of elements from divisions 58.29, 62 and 63 (software) with section L (financial)",
+      "children": []
+    }
+  ]
+}

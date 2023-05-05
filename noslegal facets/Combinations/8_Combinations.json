@@ -1,0 +1,245 @@
+{
+  "Name": "Combinations",
+  "Code": "lco",
+  "Definition": "",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "First component": "",
+  "First component code": "",
+  "Other component(s)": "",
+  "Other component code(s)": "",
+  "Connector": "",
+  "children": [
+    {
+      "Name": "Financial Regulatory",
+      "Code": "lco-1",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "First component": "Financial",
+      "First component code": "",
+      "Other component(s)": "Regulation, Work",
+      "Other component code(s)": "law-reg, lw",
+      "Connector": "and",
+      "children": [
+        {
+          "Name": "Financial Regulatory - Contentious",
+          "Code": "lco-1.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Financial Regulatory",
+          "First component code": "lco-1",
+          "Other component(s)": "Resolving",
+          "Other component code(s)": "lw-res",
+          "Connector": "and",
+          "children": []
+        },
+        {
+          "Name": "Insurance Regulatory",
+          "Code": "lco-1.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Financial Regulatory",
+          "First component code": "lco-1",
+          "Other component(s)": "Insurance",
+          "Other component code(s)": "lse-fsv-1",
+          "Connector": "and",
+          "children": []
+        },
+        {
+          "Name": "Banking Regulatory",
+          "Code": "lco-1.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Financial Regulatory",
+          "First component code": "lco-1",
+          "Other component(s)": "Banking",
+          "Other component code(s)": "lse-fsv-4",
+          "Connector": "and",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Real Estate Practices",
+      "Code": "lco-2",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "First component": "Real Estate",
+      "First component code": "lse-rst",
+      "Other component(s)": "Work",
+      "Other component code(s)": "lw",
+      "Connector": "",
+      "children": [
+        {
+          "Name": "Real Estate Disputes",
+          "Code": "lco-2.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Real Estate",
+          "First component code": "lse-rst",
+          "Other component(s)": "Disputes",
+          "Other component code(s)": "lw-res-1",
+          "Connector": "and",
+          "children": [
+            {
+              "Name": "Real Estate Litigation",
+              "Code": "lco-2.1.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "First component": "Real Estate Disputes",
+              "First component code": "lse-rst",
+              "Other component(s)": "Litigation",
+              "Other component code(s)": "lw-res-1.2",
+              "Connector": "and",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Real Estate Transactions and Finance",
+          "Code": "lco-2.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Real Estate",
+          "First component code": "lse-rst",
+          "Other component(s)": "Transacting",
+          "Other component code(s)": "lw-tra",
+          "Connector": "and",
+          "children": [
+            {
+              "Name": "Real Estate Transactions",
+              "Code": "lco-2.2.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "First component": "Real Estate",
+              "First component code": "lse-rst",
+              "Other component(s)": "Establishing, changing, transferring",
+              "Other component code(s)": "lw-tra-1, lw-tra-2, lw-tra-3",
+              "Connector": "and",
+              "children": []
+            },
+            {
+              "Name": "Real Estate Finance",
+              "Code": "lco-2.2.2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "First component": "Real Estate",
+              "First component code": "lse-rst",
+              "Other component(s)": "Financing",
+              "Other component code(s)": "lw-tra-4",
+              "Connector": "and",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Regional Litigation Practices",
+      "Code": "lco-3",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "First component": "",
+      "First component code": "",
+      "Other component(s)": "",
+      "Other component code(s)": "",
+      "Connector": "",
+      "children": [
+        {
+          "Name": "English Litigation",
+          "Code": "lco-3.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Litigation",
+          "First component code": "lw-res-1.2",
+          "Other component(s)": "England",
+          "Other component code(s)": "GB-EAW",
+          "Connector": "involves a legal process in",
+          "children": []
+        },
+        {
+          "Name": "New York Litigation",
+          "Code": "lco-3.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Litigation",
+          "First component code": "lw-res-1.2",
+          "Other component(s)": "New York",
+          "Other component code(s)": "US-NY",
+          "Connector": "involves a legal process in",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Corporate Practices",
+      "Code": "lco-4",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "First component": "",
+      "First component code": "",
+      "Other component(s)": "",
+      "Other component code(s)": "",
+      "Connector": "",
+      "children": [
+        {
+          "Name": "Corporate Finance",
+          "Code": "lco-4.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "First component": "Financing",
+          "First component code": "lw-tra-4",
+          "Other component(s)": "Organisation",
+          "Other component code(s)": "ls-per-3",
+          "Connector": "and",
+          "children": []
+        },
+        {
+          "Name": "M&A",
+          "Code": "lco-4.2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Mergers and acquisitions",
+          "Examples": "",
+          "First component": "Transferring",
+          "First component code": "lw-tra-3",
+          "Other component(s)": "Organisation",
+          "Other component code(s)": "ls-per-3",
+          "Connector": "and",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

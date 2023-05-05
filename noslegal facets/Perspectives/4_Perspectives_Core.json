@@ -1,0 +1,333 @@
+{
+  "Name": "Perspective",
+  "Code": "lps",
+  "Definition": "A perspective from which, or context in which, a particular problem, matter or information asset is best understood",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Personal life",
+      "Code": "lps-prs",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Interpersonal relationships",
+          "Code": "lps-prs-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Intimate relationships",
+              "Code": "lps-prs-1-1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Family, marriage, civil partnership, cohabitation, partner, spouse, husband, wife, significant other, sibling, divorce, separation, domestic violence, domestic abuse, coercive control",
+              "children": []
+            },
+            {
+              "Name": "Parent - child",
+              "Code": "lps-prs-1-2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Mother, father, adoption, surrogacy, fostering",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Personal resources and issues",
+          "Code": "lps-prs-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Living space",
+              "Code": "lps-prs-2-1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Home, house, flat, apartment, rent, hostel, shelter, landlord, tenant, homeless",
+              "children": []
+            },
+            {
+              "Name": "Work",
+              "Code": "lps-prs-2-2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Employment, job, career, training, freelancing, consulting",
+              "children": []
+            },
+            {
+              "Name": "Personal finance",
+              "Code": "lps-prs-2-3",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Investments, bank accounts, income, pension, social security, debt, insolvency, bankruptcy, tax",
+              "children": []
+            },
+            {
+              "Name": "Inheritance",
+              "Code": "lps-prs-2-4",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Will, probate, executry, succession, bequest, legacy, donatio mortis causa ",
+              "children": []
+            },
+            {
+              "Name": "Personal growth",
+              "Code": "lps-prs-2-5",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Education, training, belief, religion",
+              "children": []
+            },
+            {
+              "Name": "Personal problems",
+              "Code": "lps-prs-2-6",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Illness, injury, accidents, wrongdoing, legal trouble",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Business",
+      "Code": "lps-biz",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "External relationships",
+          "Code": "lps-biz-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Relationships with consumers",
+              "Code": "lps-biz-1-1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "Customers, passengers, followers",
+              "children": []
+            },
+            {
+              "Name": "Relationships with other businesses",
+              "Code": "lps-biz-1-2",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Relationships with authorities",
+              "Code": "lps-biz-1-3",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "Internal business management",
+          "Code": "lps-biz-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Business finance and expenditure",
+          "Code": "lps-biz-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "Corporate finance, tax, national insurance, pension scheme, IPO, private equity, debt finance, debenture, venture capital",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Society and authority",
+      "Code": "lps-soc",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Functions of government",
+          "Code": "lps-soc-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Defence",
+              "Code": "lps-soc-1-2",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 02",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Public order and safety",
+              "Code": "lps-soc-1-3",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 03",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Economic affairs",
+              "Code": "lps-soc-1-4",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 04",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Environmental protection",
+              "Code": "lps-soc-1-5",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 05",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Housing and public amenities",
+              "Code": "lps-soc-1-6",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 06",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Health",
+              "Code": "lps-soc-1-7",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 07",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Recreation, culture and religion",
+              "Code": "lps-soc-1-8",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 08",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Education",
+              "Code": "lps-soc-1-9",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 09",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Social protection",
+              "Code": "lps-soc-1-10",
+              "Definition": "",
+              "Notes on definition": "Based on COFOG concept 10",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "General public services",
+          "Code": "lps-soc-1-1",
+          "Definition": "",
+          "Notes on definition": "Based on COFOG (see release notes) concept 01 except that concepts 01.1.1, 01.1.2 and 01.1.3 have been split out into  lps-soc-2, -3 and -4",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Internal administration",
+          "Code": "lps-soc-2",
+          "Definition": "",
+          "Notes on definition": "See COFOG 01.1.1",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Tax and other public revenues",
+          "Code": "lps-soc-3",
+          "Definition": "",
+          "Notes on definition": "See COFOG 01.1.2",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Sovereign debt",
+              "Code": "lps-soc-3.1",
+              "Definition": "",
+              "Notes on definition": "",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "Name": "International relations",
+          "Code": "lps-soc-4",
+          "Definition": "",
+          "Notes on definition": "See COFOG 01.1.3",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Non-governmental organisations",
+          "Code": "lps-soc-5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples,Summary of relationship with NACE
+lse,Sector,,"Sectors, industries and subdivisions selected as relevant to legal work ",,,,
+lse-enr,Energy,lse,,"Aggregation of upstream oil and gas (extraction), generation and supply of energy and its transportation",,,"Aggregation of division 6 (extraction of oil and gas) and section D (energy supply) together with elements of distribution, retail and transportation (sections G and H)"
+lse-cmr,Consumer goods,lse,,"Manufacture, distribution and sale of products targeted at consumers with relatively low cost, including fast-moving consumer goods (FMCG), i.e. those which are purchased and consumed regularly",,,Aggregation of elements from sections C (manufacturing) and G (wholesale and retail trade)
+lse-mob,Mobility,lse,,"Manufacture, distribution, sale and repair of vehicles; construction and maintenance of transport infrastructure; operation of transport services",,,"Aggregation of  divisions 29 and 30 (vehicle manufacture) with elements of division 42 (infrastructure), section H (transportation) and section T  (services, including vehicle rental)"
+lse-ftc,Fintech,lse,,"Financial services delivered primarily using technology, and the technology itself",,,"Aggregation of elements from divisions 58.29, 62 and 63 (software) with section L (financial)"

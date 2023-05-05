@@ -1,0 +1,35 @@
+Code,Name,Parent,Definition,Notes,Synonym,Examples,NACE division,NACE name
+lse-agr-1,Farming,lse-agr,,Includes crops; animal rearing and slaughter; milk and wool production; seed processing; hunting and trapping. Excludes food processing - see lse-mfg,,,1,"Crop and animal production, hunting and related service activities"
+lse-agr-2,Forestry,lse-agr,,Includes logging and non-wood forestry products,,,2,Forestry and logging
+lse-agr-2,Fishing,lse-agr,,Includes fish farming and other aquaculture,,,3,Fishing and aquaculture
+lse-mfg-10,Tobacco products,lse-mfg,,Includes cigarettes but not vaping products (classified as chemicals),,,12,Manufacture of tobacco products
+lse-mfg-11,Leather products,lse-mfg,,,,,15,Manufacture of leather and related products of other materials
+lse-mfg-12,Wood products,lse-mfg,,Except furniture,,,16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+lse-mfg-13,Paper products,lse-mfg,,,,,17,Manufacture of paper and paper products
+lse-mfg-14,Recorded media,lse-mfg,,,,,18,Printing and reproduction of recorded media
+lse-mfg-15,Rubber and plastic products,lse-mfg,,,,,22,Manufacture of rubber and plastic products
+lse-mfg-16,Non-metallic mineral products,lse-mfg,,,,,23,Manufacture of other non-metallic mineral products
+lse-mfg-17,Metal products,lse-mfg,,,,,"24,25","Manufacture of basic metals; manufacture of fabricated metal products, except machinery and equipment"
+lse-mfg-18,Furniture,lse-mfg,,,,,31,Manufacture of furniture
+lse-mfg-19,Other manufacturing,lse-mfg,,,,,32,Other manufacturing
+lse-mfg-20,Repair,lse-mfg,,,,,33,"Repair, maintenance and installation of machinery and equipment"
+lse-fsv-1.1,Life insurance,lse-fsv,,,,,65.11,
+lse-fsv-1.2,Non-life insurance,lse-fsv,,Includes general and specialist insurance,,,65.12,
+lse-fsv-1.3,Reinsurance,lse-fsv,,,,,65.2,
+lse-fsv-3.1,Private equity,lse-fsv,,,,,,
+lse-fsv-3.2,Venture capital,lse-fsv,,,,,,
+lse-fsv-3.3,Hedge funds,lse-fsv,,,,,,
+lse-fsv-3.4,Credit funds,lse-fsv,,,,,,
+lse-fsv-3.5,Real estate funds,lse-fsv,,,,,,
+lse-fsv-4.1,Business banking,lse-fsv,,,,,,
+lse-fsv-4.2,Retail banking,lse-fsv,,,,,,
+lse-fsv-4.3,Consumer credit,lse-fsv,,,,,,
+lse-fsv-5.1,Capital markets,lse-fsv,,,,,,
+lse-fsv-5.2,Commodity markets,lse-fsv,,,,,,
+lse-fsv-5.3,Money markets,lse-fsv,,,,,,
+lse-fsv-5.4,Derivatives markets,lse-fsv,,Includes futures markets,,,,
+lse-fsv-5.5,Foreign exchange markets,lse-fsv,,,,,,
+lse-fsv-5.6,OTC markets,lse-fsv,,Markets for 'over-the-counter' bilateral trading in securities not listed on a recognised exchange,,,,
+lse-ser-1,Lawyers ,lse-ser,,,Legal services,,691,
+lse-ser-2,Accountants,lse-ser,,Includes tax services,Accounting,,692,
+lse-ser-3,Vehicle rental,lse-ser,,"Includes short term (e.g. car hire) and longer term (e.g. car financing) transactions, but not taxis and similar (which are transport services - see ISIC 492)",,,77.1,

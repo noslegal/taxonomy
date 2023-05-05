@@ -1,0 +1,21 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples
+ls,Legal Subjects,,"The subjects of legal work - people, property, organisations; and rights, obligations and powers",,,
+ls-per,Person,ls,,,,
+ls-per-1,Individual,ls-per,A single living human being,An individual operating under a trading name (a 'sole trader') should be regarded as an individual rather than an organisation. But their trading status can be captured as a role using XP1.,,
+ls-per-2,Family,ls-per,"Humans in a family relationship with each other, whether legally formalised (e.g. marriage, civil partnership, registered as parent, adoption) or not. Includes unmarried couples",,,
+ls-per-3,Organisation,ls-per,,,,
+ls-per-3.1,Corporate body,ls-per-3,"A private, commercial, charitable or not-for-profit entity other than a human which has legal personality and is not part of the state or other public body.",,,Most companies
+ls-per-3.2,Unincorporated body,ls-per-3,"A group of humans with some shared interest, not formalised into a corporate body. This may include traditional communities or charitable / not-for-profit groups. It may also include commercial groups, whether or not with specific legal incidents (e.g. joint liability of partners in an unincorporated partnership).",Families or corporate bodies are excluded from this concept.,,"Some general partnerships and clubs, though this depends on applicable law"
+ls-per-3.3,Authority,ls-per-3,"A state, international or other body carry out a public or similar (e.g. professional standards) function and exercises governmental or administrative power.","There is inevitably some scope for argument at the edges as to the line between a public entity / authority and the other types of organisation. Different legal systems may draw the line differently. However, the basic distinction is widely recognised.",,
+ls-prp,Property,ls,,,,
+ls-prp-1,Land and buildings,ls-prp,"Land, buildings and any interests in or relating to them (e.g. leases, licences, rights of way, mortgages)",,,
+ls-prp-2,Tangible property,ls-prp,"Physical things which can be owned, and which are not land or buildings",,"Goods, thing in possession","Commodities, chattels, personal effects"
+ls-prp-3,Intangible property,ls-prp,Anything of a non-physical nature in which property rights are recognised. Includes documents representing such rights.,,,"Intellectual property, patent, copyright, trade mark, trademark, trade-mark, share, debt portfolio, debenture, derivative, bank account, financial instrument, bill of lading, thing in action, chose in action, crypto asset, cryptocurrency, non-fungible token, NFT"
+ls-obg,Obligation,ls,,,,
+ls-obg-1,Contracts,ls-obg,Contractual relationships,Documents and other artifacts containing contract terms are addressed separately,,
+ls-obg-2,Non-contractual obligation,ls-obg,"Legal rights and duties of a private law nature, other than those incidental to personal relationships (ls-ppl), property (ls-pty) or contract (ls-obg-1)","Although contract is a well-recognised concept across legal systems, other types of private obligation are harder to map between systems. We suggest this as a useful category to start with - it can be subdivided later if found helpful to do so.",,"Liabilities, claims"
+ls-obg-2.1,Tort,ls-obg-2,,,Delict,
+ls-obg-2.2,Restitution,ls-obg-2,,,,"Unjust enrichment, negotiorum gestio"
+ls-obg-3,Public obligation,ls-obg,"Powers of public or quasi-public authorities and officials, and the rights and duties arising between people and organisations (on the one hand) and such authorities or officials.",,,
+ls-obg-3.1,Public power,ls-obg-3,,,,
+ls-obg-3.2,Public liability,ls-obg-3,,,,

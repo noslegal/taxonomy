@@ -1,0 +1,459 @@
+{
+  "Name": "Types of law",
+  "Code": "law",
+  "Definition": "",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Law",
+      "Code": "law-law",
+      "Definition": "",
+      "Notes on definition": "Law as a general concept, for combination with other noslegal concepts",
+      "Synonyms": "",
+      "Examples": "",
+      "children": []
+    },
+    {
+      "Name": "Regulation",
+      "Code": "law-reg",
+      "Definition": "",
+      "Notes on definition": "Regulatory topics not captured in a more specific category",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Professional regulation",
+          "Code": "law-reg-1",
+          "Definition": "",
+          "Notes on definition": "Includes self-regulation (e.g. lawyers in some places)",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Economic law",
+      "Code": "law-ecn",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Competition law",
+          "Code": "law-ecn-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Antitrust law, antimonopoly law, anti-monopoly law",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Trade law",
+          "Code": "law-ecn-2",
+          "Definition": "",
+          "Notes on definition": "Includes investment treaties",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "State aid law",
+          "Code": "law-ecn-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Employment law",
+      "Code": "law-emp",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Employment rights and obligations",
+          "Code": "law-emp-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Termination of employment",
+          "Code": "law-emp-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Employee incentives",
+          "Code": "law-emp-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Pensions",
+          "Code": "law-emp-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Trade unions",
+          "Code": "law-emp-5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "ESG law",
+      "Code": "law-esg",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "Environmental, social and governance",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Environmental law",
+          "Code": "law-esg-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Sustainability law",
+          "Code": "law-esg-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Charities",
+          "Code": "law-esg-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Corporate governance",
+          "Code": "law-esg-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Information law",
+      "Code": "law-inf",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Intellectual property",
+          "Code": "law-inf-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Copyright",
+          "Code": "law-inf-1.1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Patent",
+          "Code": "law-inf-1.2",
+          "Definition": "",
+          "Notes on definition": "Including utility patent",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Design",
+          "Code": "law-inf-1.3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Design right, design patent, registered design",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Trade secret",
+          "Code": "law-inf-1.4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Confidentiality, confidential information, breach of confidence",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Trade mark",
+          "Code": "law-inf-1.5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Trademarks, trade-marks, trade names, brands, branding",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Plant breeders' right",
+          "Code": "law-inf-1.6",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Database right",
+          "Code": "law-inf-1.7",
+          "Definition": "",
+          "Notes on definition": "EU / UK law concept",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Data protection and privacy",
+          "Code": "law-inf-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Data privacy",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Defamation and reputation",
+          "Code": "law-inf-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Freedom of information",
+          "Code": "law-inf-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Freedom of speech",
+          "Code": "law-inf-5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "National security",
+          "Code": "law-inf-6",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "State secrecy, official secrets",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Criminal law",
+      "Code": "law-cri",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Violent crime",
+          "Code": "law-cri-1",
+          "Definition": "",
+          "Notes on definition": "Includes assaults of all types",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Financial crime",
+          "Code": "law-cri-2",
+          "Definition": "",
+          "Notes on definition": "Includes theft, fraud, corruption, false accounting, racketeering, insider trading and market manipulation",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Private law",
+      "Code": "law-pri",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "Private and business law, civil law",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Corporate law",
+          "Code": "law-pri-1",
+          "Definition": "",
+          "Notes on definition": "Law about business organisations",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Commercial law",
+          "Code": "law-pri-2",
+          "Definition": "",
+          "Notes on definition": "Law about business transactions",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Agency",
+          "Code": "law-pri-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Equity and trusts",
+          "Code": "law-pri-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Unfair trading law",
+          "Code": "law-pri-5",
+          "Definition": "",
+          "Notes on definition": "Not to be confused with competition / antitrust law",
+          "Synonyms": "Unfair competition law, trade practices law",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Private international law",
+          "Code": "law-pri-6",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "Conflict of laws, international private law",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Public law",
+      "Code": "law-pub",
+      "Definition": "",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "",
+      "children": [
+        {
+          "Name": "Constitutional law",
+          "Code": "law-pub-1",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Administrative law",
+          "Code": "law-pub-2",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Human rights",
+          "Code": "law-pub-3",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Public international law",
+          "Code": "law-pub-4",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        },
+        {
+          "Name": "Immigration law",
+          "Code": "law-pub-5",
+          "Definition": "",
+          "Notes on definition": "",
+          "Synonyms": "",
+          "Examples": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "Name": "Special topics",
+      "Code": "law-spe",
+      "Definition": "",
+      "Notes on definition": "This is intended for private extension to capture topics which are major but whose significance is only local or temporary e.g. Brexit, Covid-19",
+      "Synonyms": "",
+      "Examples": "",
+      "children": []
+    }
+  ]
+}

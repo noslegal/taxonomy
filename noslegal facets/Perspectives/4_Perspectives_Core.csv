@@ -1,0 +1,37 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples
+lps,Perspective,,"A perspective from which, or context in which, a particular problem, matter or information asset is best understood",,,
+lps-prs,Personal life,lps,,,,
+lps-prs-1,Interpersonal relationships,lps-prs,,,,
+lps-prs-1-1,Intimate relationships,lps-prs-1,,,,"Family, marriage, civil partnership, cohabitation, partner, spouse, husband, wife, significant other, sibling, divorce, separation, domestic violence, domestic abuse, coercive control"
+lps-prs-1-2,Parent - child,lps-prs-1,,,,"Mother, father, adoption, surrogacy, fostering"
+lps-prs-2,Personal resources and issues,lps-prs,,,,
+lps-prs-2-1,Living space,lps-prs-2,,,,"Home, house, flat, apartment, rent, hostel, shelter, landlord, tenant, homeless"
+lps-prs-2-2,Work,lps-prs-2,,,,"Employment, job, career, training, freelancing, consulting"
+lps-prs-2-3,Personal finance,lps-prs-2,,,,"Investments, bank accounts, income, pension, social security, debt, insolvency, bankruptcy, tax"
+lps-prs-2-4,Inheritance,lps-prs-2,,,,"Will, probate, executry, succession, bequest, legacy, donatio mortis causa "
+lps-prs-2-5,Personal growth,lps-prs-2,,,,"Education, training, belief, religion"
+lps-prs-2-6,Personal problems,lps-prs-2,,,,"Illness, injury, accidents, wrongdoing, legal trouble"
+lps-biz,Business,lps,,,,
+lps-biz-1,External relationships,lps-biz,,,,
+lps-biz-1-1,Relationships with consumers,lps-biz-1,,,,"Customers, passengers, followers"
+lps-biz-1-2,Relationships with other businesses,lps-biz-1,,,,
+lps-biz-1-3,Relationships with authorities,lps-biz-1,,,,
+lps-biz-2,Internal business management,lps-biz,,,,
+lps-biz-3,Business finance and expenditure,lps-biz,,,,"Corporate finance, tax, national insurance, pension scheme, IPO, private equity, debt finance, debenture, venture capital"
+lps-soc,Society and authority,lps,,,,
+lps-soc-1,Functions of government,lps-soc,,,,
+lps-soc-1-1,General public services,lps-soc,,"Based on COFOG (see release notes) concept 01 except that concepts 01.1.1, 01.1.2 and 01.1.3 have been split out into  lps-soc-2, -3 and -4",,
+lps-soc-1-2,Defence,lps-soc-1,,Based on COFOG concept 02,,
+lps-soc-1-3,Public order and safety,lps-soc-1,,Based on COFOG concept 03,,
+lps-soc-1-4,Economic affairs,lps-soc-1,,Based on COFOG concept 04,,
+lps-soc-1-5,Environmental protection,lps-soc-1,,Based on COFOG concept 05,,
+lps-soc-1-6,Housing and public amenities,lps-soc-1,,Based on COFOG concept 06,,
+lps-soc-1-7,Health,lps-soc-1,,Based on COFOG concept 07,,
+lps-soc-1-8,"Recreation, culture and religion",lps-soc-1,,Based on COFOG concept 08,,
+lps-soc-1-9,Education,lps-soc-1,,Based on COFOG concept 09,,
+lps-soc-1-10,Social protection,lps-soc-1,,Based on COFOG concept 10,,
+lps-soc-2,Internal administration,lps-soc,,See COFOG 01.1.1,,
+lps-soc-3,Tax and other public revenues,lps-soc,,See COFOG 01.1.2,,
+lps-soc-3.1,Sovereign debt,lps-soc-3,,,,
+lps-soc-4,International relations,lps-soc,,See COFOG 01.1.3,,
+lps-soc-5,Non-governmental organisations,lps-soc,,,,

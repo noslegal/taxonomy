@@ -1,0 +1,234 @@
+{
+  "Name": "Organisation",
+  "Code": "ls-per-3",
+  "Definition": "",
+  "Notes on definition": "",
+  "Synonyms": "",
+  "Examples": "",
+  "children": [
+    {
+      "Name": "Corporate body",
+      "Code": "ls-per-3.1",
+      "Definition": "A private, commercial, charitable or not-for-profit entity other than a human which has legal personality and is not part of the state or other public body.",
+      "Notes on definition": "",
+      "Synonyms": "",
+      "Examples": "Most companies",
+      "children": [
+        {
+          "Name": "UK corporate body",
+          "Code": "ls-per-3.1-GB",
+          "Definition": "",
+          "Notes on definition": "Corporate body incorporated under UK law or under the law of one of the UK's jurisdictions (England & Wales, Scotland and Northern Ireland)",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Limited company",
+              "Code": "ls-per-3.1-GB-1",
+              "Definition": "",
+              "Notes on definition": "A company in which the liability of the members to third parties is limited by its constitution. The principal legislation is the Companies Act 2006, which extends to the whole UK.",
+              "Synonyms": "Limited, Ltd",
+              "Examples": "",
+              "children": [
+                {
+                  "Name": "Company limited by shares",
+                  "Code": "ls-per-3.1-GB-1.1",
+                  "Definition": "",
+                  "Notes on definition": "A company in which the liability of the members to third parties is limited to the amount, if any, unpaid on their shares. See section 3(2) of the Companies Act 2006.",
+                  "Synonyms": "Limited, Ltd",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Company limited by guarantee",
+                  "Code": "ls-per-3.1-GB-1.2",
+                  "Definition": "",
+                  "Notes on definition": "A company in which the liability of the members to third parties is limited to the amount, if any, which they undertake to pay upon it being wound up. Commonly a nominal sum, such as \u00a31. See section 3(3) of the Companies Act 2006. A company cannot be limited by guarantee and have a share capital: section 5 of the Companies Act 2006.",
+                  "Synonyms": "Limited, Ltd",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Public limited company",
+                  "Code": "ls-per-3.1-GB-1.3",
+                  "Definition": "",
+                  "Notes on definition": "A company identified as such in its certificate of incorporation and meeting certain requirements. See section 4 and Part 20 of the Companies Act 2006. Companies which are not public limited companies are known as 'private companies.' Private companies are prohibited from making public share offers.",
+                  "Synonyms": "Plc, plc, PLC",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Community interest company",
+                  "Code": "ls-per-3.1-GB-1.4",
+                  "Definition": "",
+                  "Notes on definition": "See section 6 of the Companies Act 2006 and Part 2 of the Companies (Audit, Investigations and Community Enterprise) Act 2004. A CIC may be limited by either shares or guarantee",
+                  "Synonyms": "CIC",
+                  "Examples": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "Name": "Unlimited company",
+              "Code": "ls-per-3.1-GB-2",
+              "Definition": "",
+              "Notes on definition": "A company in which the liability of the members to third parties is unlimited, and which does not have to file accounts with Companies House. The principal legislation is the Companies Act 2006, which extends to the whole UK. See sections 3, 102-111, 448 and 556.",
+              "Synonyms": "ULC, Unltd",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Limited liability partnership",
+              "Code": "ls-per-3.1-GB-3",
+              "Definition": "",
+              "Notes on definition": "The principal legislation is the Limited Liability Partnerships Act 2000, which extends to the whole UK.",
+              "Synonyms": "LLP",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Registered society",
+              "Code": "ls-per-3.1-GB-4",
+              "Definition": "",
+              "Notes on definition": "Formerly known as industrial and provident societies (IPSs). Renamed by the Co-operative and Community Benefit Societies Act 2004. ",
+              "Synonyms": "",
+              "Examples": "",
+              "children": [
+                {
+                  "Name": "Co-operative society",
+                  "Code": "ls-per-3.1-GB-4.1",
+                  "Definition": "",
+                  "Notes on definition": "Type of registered society",
+                  "Synonyms": "",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Community benefit society",
+                  "Code": "ls-per-3.1-GB-4.2",
+                  "Definition": "",
+                  "Notes on definition": "Type of registered society",
+                  "Synonyms": "",
+                  "Examples": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "Name": "Charitable incorporated organisation",
+              "Code": "ls-per-3.1-GB-5",
+              "Definition": "",
+              "Notes on definition": "Umbrella noslegal term for the similar types of organisation which exist under the laws of England and Wales, and (with some differences) Scotland. A CIO for Northern Ireland is authorised by Part 11 of the Charities (Northern Ireland) Act 2008 but this has not been brought into force.",
+              "Synonyms": "CIO",
+              "Examples": "",
+              "children": [
+                {
+                  "Name": "Charitable incorporated organisation (England & Wales)",
+                  "Code": "ls-per-3.1-GB-5-EAW",
+                  "Definition": "",
+                  "Notes on definition": "The principal legislation is Part 11 of the UK Charities Act 2011, which extends only to England and Wales. ",
+                  "Synonyms": "CIO",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Scottish charitable incorporated organisation",
+                  "Code": "ls-per-3.1-GB-5-SCT",
+                  "Definition": "",
+                  "Notes on definition": "The principal legislation is chapter 7 of the Scottish Charities and Trustee Investment (Scotland) Act 2005.",
+                  "Synonyms": "SCIO",
+                  "Examples": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "Name": "Chartered company",
+              "Code": "ls-per-3.1-GB-6",
+              "Definition": "",
+              "Notes on definition": "A company created by royal charter. This practice long predates modern companies legislation and is still used for many professional bodies, universities and some other bodies (e.g. the BBC, some charities)",
+              "Synonyms": "RC",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Scottish partnership",
+              "Code": "ls-per-3.1-GB-SCT",
+              "Definition": "",
+              "Notes on definition": "If governed by the law of Scotland, these have legal personality distinct from the partners, unlike the position in other parts of the UK. See the UK Partnership Act 1890, section 4(2).",
+              "Synonyms": "",
+              "Examples": "",
+              "children": [
+                {
+                  "Name": "Scottish general partnership",
+                  "Code": "ls-per-3.1-GB-SCT-1",
+                  "Definition": "",
+                  "Notes on definition": "If governed by the law of Scotland, general partnerships have legal personality distinct from the partners, unlike the position in other parts of the UK. See the UK Partnership Act 1890, section 4(2).",
+                  "Synonyms": "Firm",
+                  "Examples": "",
+                  "children": []
+                },
+                {
+                  "Name": "Scottish limited partnership ",
+                  "Code": "ls-per-3.1-GB-SCT-2",
+                  "Definition": "",
+                  "Notes on definition": "As with general partnerships, Scottish limited partnerships differ from limited partnerships elsewhere in the UK by having legal personality distinct from the partners. The principal legislation is the UK Limited Partnerships Act 1907, building on the Partnership Act 1890.",
+                  "Synonyms": "SLP",
+                  "Examples": "",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Unincorporated body",
+      "Code": "ls-per-3.2",
+      "Definition": "A group of humans with some shared interest, not formalised into a corporate body. This may include traditional communities or charitable / not-for-profit groups. It may also include commercial groups, whether or not with specific legal incidents (e.g. joint liability of partners in an unincorporated partnership).",
+      "Notes on definition": "Families or corporate bodies are excluded from this concept.",
+      "Synonyms": "",
+      "Examples": "Some general partnerships and clubs, though this depends on applicable law",
+      "children": [
+        {
+          "Name": "UK unincorporated body",
+          "Code": "ls-per-3.2-GB",
+          "Definition": "",
+          "Notes on definition": "Unincorporated body governed by UK law or the law of one of the UK's jurisdictions (England & Wales, Scotland and Northern Ireland)",
+          "Synonyms": "",
+          "Examples": "",
+          "children": [
+            {
+              "Name": "Unincorporated association",
+              "Code": "ls-per-3.2-GB-1",
+              "Definition": "",
+              "Notes on definition": "A group of people operating as a not-for-profit society or association which does not meet the definition of partnership under section 1 of the Partnership Act 1890 (\"the relation which subsists between persons carrying on a business in common with a view of profit.\")",
+              "Synonyms": "",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "General partnership",
+              "Code": "ls-per-3.2-GB-2",
+              "Definition": "",
+              "Notes on definition": "The principal legislation is the UK Partnership Act 1890. An ordinary or 'general' partnership is not a corporate body if governed by the laws of England & Wales or Northern Ireland. But note that a Scottish general partnership is a corporate body.",
+              "Synonyms": "Firm",
+              "Examples": "",
+              "children": []
+            },
+            {
+              "Name": "Limited partnership ",
+              "Code": "ls-per-3.2-GB-3",
+              "Definition": "",
+              "Notes on definition": "The principal legislation is the UK Limited Partnerships Act 1907, which builds on the Partnership Act 1890. Limited partnerships have general and limited partners, with the latter playing no active role in the business. Not to be confused with the entirely distinct concept of limited liability partnerships (LLPs). LPs are not corporate bodies if governed by the laws of England & Wales or Northern Ireland. But note that a Scottish limited partnership (SLP) is a corporate body.",
+              "Synonyms": "LP",
+              "Examples": "",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

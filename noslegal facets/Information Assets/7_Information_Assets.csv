@@ -1,0 +1,9 @@
+Code,Name,Parent,Definition,Notes,Synonyms,Examples
+lin,Legal information asset,,"Anything in which information of any description is recorded. This includes documents in the widely understood paper or digital sense. But it also extends beyond documents to computerised models, interactive experiences and any other format in which information is embodied.
+Note: The subtypes can be used singly or in combination. For example, a legal instrument may also be an example.",,"Document, artefact, artifact",
+lin-1,Legal instrument,lin,"Legal information assets which give rise to, or evidence, legal effects.  
+Note: We envisage that a future noslegal release will model types of legal instrument (e.g. contract types), their parts (e.g. clause types) and other features (e.g. language, succinctness, formality, visual).",,Instrument,"Contract, deed, notice, resolution, pleading, statement of case. Parts of these (e.g. a clause, a map annexed to a legal instrument relating to the transfer of land)"
+lin-2,Legal analysis,lin,"Legal information assets describing or applying the law, whether for an internal or external audience",,"Advice, opinion, memorandum, memo, note","Note of advice, expert opinion"
+lin-3,Process material,lin,Legal information assets created to support the delivery or project management of a legal service,,,"Flowchart, flow chart, checklist, process template, process map, steps plans, scope of work, toolkit, tool kit, agenda for common meeting"
+lin-4,Marketing material,lin,An information asset used to demonstrate the organisation's legal or other service capabilities to actual or prospective clients and to other interested parties (e.g. media),,,"Website, credentials"
+lin-5,Organisational material,lin,An information asset describing how this organisation is structured and where work is done,,,"Org chart, directory, website 'about us' section"
