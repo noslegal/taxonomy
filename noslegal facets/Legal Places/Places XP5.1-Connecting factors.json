@@ -1,0 +1,130 @@
+{
+    "columns": [
+        "Code",
+        "Topic",
+        "Type",
+        "Work- or Information Asset-side",
+        "Place-side",
+        "Parent",
+        "Definition"
+    ],
+    "data": [
+        [
+            "lpcf-0",
+            "Generic relationship",
+            "Symmetric",
+            "is related to",
+            "is related to",
+            "",
+            "Any type of link with a place"
+        ],
+        [
+            "lpcf-1.0",
+            "Resolving link",
+            "Transitive",
+            "involves formal legal process in",
+            "has formal legal process",
+            "lpcf-0",
+            "A link with the type of process involved in the noslegal Resolving concept (part of Legal Work)"
+        ],
+        [
+            "lpcf-1.1",
+            "Litigation - actual",
+            "Transitive",
+            "involves litigation in",
+            "is litigation location",
+            "lpcf-1.0",
+            "Actual (not just possible or threatened) court proceedings in a court of the place in question"
+        ],
+        [
+            "lpcf-1.2",
+            "Litigation - possible",
+            "Transitive",
+            "contemplates litigation in",
+            "is potential litigation location",
+            "lpcf-1.0",
+            "Possible (e.g. provided for in a clause) or threatened court proceedings in the relevant place. Relevant to contracts, transactions and informal dispute resolution matters, for example. Doesn't distinguish between exclusive and non-exclusive jurisdiction or venue clauses at this stage, as it may be unnecessary to model and the topic is sufficiently complex that it may be unwise to simplify it into clear sub-types."
+        ],
+        [
+            "lpcf-1.3",
+            "Arbitration - actual",
+            "Transitive",
+            "involves arbitration in",
+            "is arbitration location",
+            "lpcf-1.0",
+            "Actual (not just possible or threatened) arbitration proceedings in the place in question. Doesn't distinguish between the seat of arbitration and the hearing location, because they often coincide and the additional complication may not be worth modelling. Also doesn't address the specialist technical issue of the governing law of the arbitration, as this seems too subtle to be useful at this stage."
+        ],
+        [
+            "lpcf-1.4",
+            "Arbitration - potential",
+            "Transitive",
+            "contemplates arbitration in",
+            "is potential arbitration location",
+            "lpcf-1.0",
+            "Possible (e.g. provided for in a clause) or threatened arbitration proceedings in the relevant place. Relevant to contracts, transactions and informal dispute resolution matters, for example. Doesn't distinguish between the seat of arbitration and the hearing location, because they often coincide and the additional complication may not be worth modelling. Also doesn't address the specialist technical issue of the governing law of the arbitration, as this seems too subtle to be useful at this stage."
+        ],
+        [
+            "lpcf-1.5",
+            "Enforcement",
+            "Transitive",
+            "involves enforcement authority in",
+            "is location of enforcement authority",
+            "lpcf-1.0",
+            "Involves actual or potential enforcement action by the authorities of a place or against assets in a place. Doesn't distinguish between the two at this stage, because that in practice they often coincide and the additional complication may not be worth modelling."
+        ],
+        [
+            "lpcf-1.6",
+            "Investigation",
+            "Transitive",
+            "involves investigative authority in",
+            "is location of investigating authority ",
+            "lpcf-1.0",
+            "An actual or potential investigation by the authorities of a place, or a private entity (e.g. a company) based in a place, or in respect of events, people or assets in a place. Doesn't distinguish between these various possibilities at this stage, because that in practice they often coincide and the additional complication may not be worth modelling. In a cross-border context, this link could be used to signify both that authorities in country X are investigating and also that the investigation is focused on matters in country Y. In future iterations, we can consider whether it is worth splitting out such concepts further or whether the complication outweighs the benefit."
+        ],
+        [
+            "lpcf-1.7",
+            "Administrative process ",
+            "Transitive",
+            "involves administrative authority in",
+            "is administrative authority's location",
+            "lpcf-1.0",
+            "An actual or potential process by an administrative or regulatory authority based in the place in question. For example, if a matter considers potential merger control filing in the place in question then this connecting factor could be used."
+        ],
+        [
+            "lpcf-2.0",
+            "Applicable law",
+            "Transitive",
+            "is subject to laws of",
+            "law applies to",
+            "lpcf-0",
+            "This includes contractual governing law but also wider notions of applicable law. It can in principle be subdivided but at this stage we have not done so as the additional complication may not be worthwhile."
+        ],
+        [
+            "lpcf-3.0",
+            "Property in",
+            "Transitive",
+            "involves property in",
+            "is property location",
+            "lpcf-0",
+            "This captures the location of an asset. In the case of real estate, this will be obvious. In other contexts, some technical legal issues can arise as to where an asset is deemed to be, but we have not sought to sub-divide the concept as this sort of complexity may be unwise to model further."
+        ],
+        [
+            "lpcf-4.0",
+            "Personal connection",
+            "Transitive",
+            "involves person linked with",
+            "has personal link with",
+            "lpcf-0",
+            "This covers legally-relevant links such as domicile, residence, habitual residence, presence, place of incorporation and place of business. It can in principle be sub-divided but at this stage we have not done so, in order to assess whether such sub-division is useful or not. "
+        ],
+        [
+            "lpcf-5.0",
+            "Commercial link",
+            "Symmetric",
+            "has a commercial link with",
+            "has a commercial link with",
+            "lpcf-0",
+            "A deliberately wide link for capturing commercial linkages as opposed to just legal ones. May be subdivided later if found useful."
+        ]
+    ]
+}
