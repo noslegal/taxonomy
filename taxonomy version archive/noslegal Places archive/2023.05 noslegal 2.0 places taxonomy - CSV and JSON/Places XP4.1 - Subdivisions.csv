@@ -1,4 +1,4 @@
-Code,Country or area,noslegal succinct English name,ISO Code,nos Code,Subdivision type,Parent subunit,Legal System (Subunit),Alt code,ISO name 1,ISO name 2,ISO name 3,ISO name 4,noslegal abbreviation,Succint English name if different from ISO name 1
+﻿Code,Country or area,noslegal succinct English name,ISO Code,nos Code,Subdivision type,Parent subunit,Legal System (Subunit),Alt code,ISO name 1,ISO name 2,ISO name 3,ISO name 4,noslegal abbreviation,Succint English name if different from ISO name 1
 AD,Andorra,Canillo,AD-02,,Parish,,,,Canillo,,,,,
 AD,Andorra,Encamp,AD-03,,Parish,,,,Encamp,,,,,
 AD,Andorra,La Massana,AD-04,,Parish,,,,La Massana,,,,,
@@ -1993,7 +1993,6 @@ ID,Indonesia,West Nusa Tenggara,ID-NB,,Province,ID-NU,,,Nusa Tenggara Barat,,,,,
 ID,Indonesia,East Nusa Tenggara,ID-NT,,Province,ID-NU,,,Nusa Tenggara Timur,,,,,East Nusa Tenggara
 ID,Indonesia,Papua,ID-PA,,Province,ID-PP,,,Papua,,,,,
 ID,Indonesia,West Papua,ID-PB,,Province,ID-PP,,,Papua Barat,,,,,West Papua
-ID,Indonesia,Papua Barat Daya,ID-PD,,Province,ID-PP,,,Papua Barat Daya,,,,,
 ID,Indonesia,Riau (Sumatra),ID-RI,,Province,ID-SM,,,Riau,,,,,Riau (Sumatra)
 ID,Indonesia,North Sulawesi,ID-SA,,Province,ID-SL,,,Sulawesi Utara,,,,,North Sulawesi
 ID,Indonesia,West Sumatra,ID-SB,,Province,ID-SM,,,Sumatera Barat,,,,,West Sumatra
@@ -2010,7 +2009,7 @@ IN,India,Andhra Pradesh,IN-AP,,State,,,,Andhra Pradesh,,,,,
 IN,India,Arunachal Pradesh,IN-AR,,State,,,,Arunāchal Pradesh,,,,,Arunachal Pradesh
 IN,India,Assam,IN-AS,,State,,,,Assam,,,,,
 IN,India,Bihar,IN-BR,,State,,,,Bihār,,,,,Bihar
-IN,India,Chhattīsgarh,IN-CG,,State,,,,Chhattīsgarh,,,,,
+IN,India,Chhattīsgarh,IN-CT,,State,,,,Chhattīsgarh,,,,,
 IN,India,Goa,IN-GA,,State,,,,Goa,,,,,
 IN,India,Gujarat,IN-GJ,,State,,,,Gujarāt,,,,,Gujarat
 IN,India,Himachal Pradesh,IN-HP,,State,,,,Himāchal Pradesh,,,,,Himachal Pradesh
@@ -2024,15 +2023,15 @@ IN,India,Manipur,IN-MN,,State,,,,Manipur,,,,,
 IN,India,Madhya Pradesh,IN-MP,,State,,,,Madhya Pradesh,,,,,
 IN,India,Mizoram,IN-MZ,,State,,,,Mizoram,,,,,
 IN,India,Nagaland,IN-NL,,State,,,,Nāgāland,,,,,Nagaland
-IN,India,Odisha,IN-OD,,State,,,,Odisha,,,,,
+IN,India,Odisha,IN-OR,,State,,,,Odisha,,,,,
 IN,India,Punjab,IN-PB,,State,,,,Punjab,,,,,
 IN,India,Rajasthan,IN-RJ,,State,,,,Rājasthān,,,,,Rajasthan
 IN,India,Sikkim,IN-SK,,State,,,,Sikkim,,,,,
-IN,India,Telangana,IN-TS,,State,,,,Telangāna,,,,,Telangana
+IN,India,Telangana,IN-TG,,State,,,,Telangāna,,,,,Telangana
 IN,India,Tamil Nadu,IN-TN,,State,,,,Tamil Nādu,,,,,Tamil Nadu
 IN,India,Tripura,IN-TR,,State,,,,Tripura,,,,,
 IN,India,Uttar Pradesh,IN-UP,,State,,,,Uttar Pradesh,,,,,
-IN,India,Uttarakhand,IN-UK,,State,,,,Uttarākhand,,,,,Uttarakhand
+IN,India,Uttarakhand,IN-UT,,State,,,,Uttarākhand,,,,,Uttarakhand
 IN,India,West Bengal,IN-WB,,State,,,,West Bengal,,,,,
 IN,India,Andaman and Nicobar Islands,IN-AN,,Union Territory,,,,Andaman and Nicobar Islands,,,,,
 IN,India,Chandigarh,IN-CH,,Union Territory,,,,Chandīgarh,,,,,Chandigarh
@@ -2526,7 +2525,7 @@ KR,Korea (Republic),Gwangju,KR-29,,Metropolitan City,,,,Gwangju,Gwangju-gwangyeo
 KR,Korea (Republic),Daejeon,KR-30,,Metropolitan City,,,,Daejeon,Daejeon-gwangyeoksi,,,,
 KR,Korea (Republic),Ulsan,KR-31,,Metropolitan City,,,,Ulsan,Ulsan-gwangyeoksi,,,,
 KR,Korea (Republic),Gyeonggi,KR-41,,Province,,,,Gyeonggi,Gyeonggi-do,,,,
-KR,Korea (Republic),Gangwon,KR-42,,Special Self-Governing Province,,,,Gangwon,Gangwon-do,,,,
+KR,Korea (Republic),Gangwon,KR-42,,Province,,,,Gangwon,Gangwon-do,,,,
 KR,Korea (Republic),Chungbuk,KR-43,,Province,,,,Chungbuk,Chungcheongbuk-do,,,,
 KR,Korea (Republic),Chungnam,KR-44,,Province,,,,Chungnam,Chungcheongnam-do,,,,
 KR,Korea (Republic),Jeonbuk,KR-45,,Province,,,,Jeonbuk,Jeollabuk-do,,,,
@@ -2979,7 +2978,6 @@ ME,Montenegro,Zabljak,ME-21,,Municipality,,,,Žabljak,,,,,Zabljak
 ME,Montenegro,Gusinje,ME-22,,Municipality,,,,Gusinje,,,,,
 ME,Montenegro,Petnjica,ME-23,,Municipality,,,,Petnjica,,,,,
 ME,Montenegro,Tuzi,ME-24,,Municipality,,,,Tuzi,,,,,
-ME,Montenegro,Zeta,ME-25,,Municipality,,,,Zeta,,,,,
 MG,Madagascar,Toamasina,MG-A,,Province,,,,Toamasina,,,,,
 MG,Madagascar,Antsiranana,MG-D,,Province,,,,Antsiranana,,,,,
 MG,Madagascar,Fianarantsoa,MG-F,,Province,,,,Fianarantsoa,,,,,
@@ -3453,7 +3451,7 @@ NO,Norway,Trondelag,NO-50,,County,,,,Trøndelag,Trööndelage,,,,Trondelag
 NO,Norway,Troms og Finnmark,NO-54,,County,,,,Troms og Finnmark,Romssa ja Finnmárkku,Tromssan ja Finmarkun,,,
 NO,Norway,Svalbard,NO-21,,Arctic Region,,,SJ,Svalbard,,,,,
 NO,Norway,Jan Mayen,NO-22,,Arctic Region,,,SJ,Jan Mayen,,,,,
-NP,Nepal,Koshi,NP-P1,,Province,,,,Koshi,	Koshī,Province 1,Pradesh 1,,
+NP,Nepal,Pradesh 1,NP-P1,,Province,,,,Pradesh 1,,Province 1,,,
 NP,Nepal,Madhesh,NP-P2,,Province,,,,Madhesh,Pradesh 2,Province 2,,,
 NP,Nepal,Bagmati,NP-P3,,Province,,,,Bagmati,Bāgmatī,Pradesh 3,Province 3,,
 NP,Nepal,Gandaki,NP-P4,,Province,,,,Gaṇḍakī,Pradesh 4,Province 4,,,Gandaki
@@ -3609,8 +3607,7 @@ PH,Philippines,Lanao del Sur,PH-LAS,,Province,PH-14,,,Lanao del Sur,Timog Lanaw,
 PH,Philippines,Leyte,PH-LEY,,Province,PH-08,,,Leyte,,,,,
 PH,Philippines,La Union,PH-LUN,,Province,PH-01,,,La Union,La Unyon,,,,
 PH,Philippines,Marinduque,PH-MAD,,Province,PH-41,,,Marinduque,Marinduke,,,,
-PH,Philippines,Maguindanao del Norte,PH-MGN,,Province,PH-14,,,Maguindanao del Norte,Hilagang Magindanaw,,,,
-PH,Philippines,Maguindanao del Sur,PH-MGS,,Province,PH-14,,,Maguindanao del Sur,Timog Magindanaw,,,,
+PH,Philippines,Maguindanao,PH-MAG,,Province,PH-14,,,Maguindanao,Magindanaw,,,,
 PH,Philippines,Masbate,PH-MAS,,Province,PH-05,,,Masbate,,,,,
 PH,Philippines,Mindoro Occidental,PH-MDC,,Province,PH-41,,,Mindoro Occidental,Kanlurang Mindoro,,,,
 PH,Philippines,Mindoro Oriental,PH-MDR,,Province,PH-41,,,Mindoro Oriental,Silangang Mindoro,,,,
@@ -3671,7 +3668,7 @@ PK,Pakistan,Khaibar Pakhtunkhwa,PK-KP,,Province,,,,Khaībar Pakhtūnkhwā,Khyber
 PK,Pakistan,Punjab,PK-PB,,Province,,,,Panjāb,Punjab,,,,Punjab
 PK,Pakistan,Sindh,PK-SD,,Province,,,,Sindh,,,,,
 PL,Poland,Lower Silesia,PL-02,,Voivodship,,,,Dolnośląskie,,,,,Lower Silesia
-PL,Poland,Kujawsko-Pomorskie,PL-04,,Voivodship,,,,Kujawsko-pomorskie,,,,,
+PL,Poland,Kuyavia-Pomerania,PL-04,,Voivodship,,,,Kujawsko-pomorskie,,,,,Kuyavia-Pomerania
 PL,Poland,Lublin,PL-06,,Voivodship,,,,Lubelskie,,,,,Lublin
 PL,Poland,Lubusz,PL-08,,Voivodship,,,,Lubuskie,,,,,Lubusz
 PL,Poland,Lodz,PL-10,,Voivodship,,,,Łódzkie,,,,,Lodz
@@ -3683,7 +3680,7 @@ PL,Poland,Podlachia,PL-20,,Voivodship,,,,Podlaskie,,,,,Podlachia
 PL,Poland,Pomerania,PL-22,,Voivodship,,,,Pomorskie,,,,,Pomerania
 PL,Poland,Silesia,PL-24,,Voivodship,,,,Śląskie,,,,,Silesia
 PL,Poland,Holy Cross Province,PL-26,,Voivodship,,,,Świętokrzyskie,,,,,Holy Cross Province
-PL,Poland,Warmińsko-Mazurskie,PL-28,,Voivodship,,,,Warmińsko-mazurskie,,,,,
+PL,Poland,Warmia-Masuria,PL-28,,Voivodship,,,,Warmińsko-mazurskie,,,,,Warmia-Masuria
 PL,Poland,Greater Poland,PL-30,,Voivodship,,,,Wielkopolskie,,,,,Greater Poland
 PL,Poland,West Pomerania,PL-32,,Voivodship,,,,Zachodniopomorskie,,,,,West Pomerania
 PS,Palestine,Bethlehem,PS-BTH,,Governorate,,,,Bethlehem,Bayt Laḩm,,,,

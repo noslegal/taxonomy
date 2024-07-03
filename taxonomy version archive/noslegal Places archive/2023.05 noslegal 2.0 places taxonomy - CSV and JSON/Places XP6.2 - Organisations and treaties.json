@@ -1,5 +1,5 @@
 {
-    "columns": [
+    "columns":[
         "Short name",
         "Full name",
         "Link",
@@ -8,13 +8,13 @@
         "Members or parties",
         "Hague Core Convention?"
     ],
-    "data": [
+    "data":[
         [
             "1954 Hague Civil Procedure Convention",
             "Convention of 1 March 1954 on civil procedure",
             "HCCH",
-            "1954-03-01T00:00:00.000",
-            "",
+            "1954-03-01",
+            null,
             49,
             "No"
         ],
@@ -22,8 +22,8 @@
             "1955 Hague Sale of Goods Convention",
             "Convention of 15 June 1955 on the law applicable to international sales of goods",
             "HCCH",
-            "1955-06-15T00:00:00.000",
-            "",
+            "1955-06-15",
+            null,
             8,
             "No"
         ],
@@ -31,8 +31,8 @@
             "1956 Hague Child Maintenance Applicable Law Convention ",
             "Convention of 24 October 1956 concerning the recognition and enforcement of decisions relating to maintenance obligations towards children (applicable law)",
             "HCCH",
-            "1956-10-24T00:00:00.000",
-            "",
+            "1956-10-24",
+            null,
             14,
             "No"
         ],
@@ -40,8 +40,8 @@
             "1958 Hague Child Maintenance Enforcement Convention        ",
             "Convention of 15 April 1958 concerning the recognition and enforcement of decisions relating to maintenance obligations towards children (enforcement)",
             "HCCH",
-            "1958-04-15T00:00:00.000",
-            "",
+            "1958-04-15",
+            null,
             20,
             "No"
         ],
@@ -49,17 +49,17 @@
             "1961 Hague Apostille Convention",
             "Convention of 5 October 1961 Abolishing the Requirement of Legalisation for Foreign Public Documents",
             "HCCH",
-            "1961-10-05T00:00:00.000",
-            "",
-            126,
+            "1961-10-05",
+            null,
+            124,
             "Yes"
         ],
         [
             "1961 Hague Form of Wills Convention",
             "Convention of 5 October 1961 on the Conflicts of Laws Relating to the Form of Testamentary Dispositions",
             "HCCH",
-            "1961-10-05T00:00:00.000",
-            "",
+            "1961-10-05",
+            null,
             42,
             "Yes"
         ],
@@ -67,8 +67,8 @@
             "1961 Hague Protection of Minors Convention",
             "Convention of 5 October 1961 concerning the powers of authorities and the law applicable in respect of the protection of infants",
             "HCCH",
-            "1961-10-05T00:00:00.000",
-            "",
+            "1961-10-05",
+            null,
             14,
             "No"
         ],
@@ -76,17 +76,17 @@
             "1965 Hague Service Convention",
             "Convention of 15 November 1965 on the Service Abroad of Judicial and Extrajudicial Documents in Civil or Commercial Matters",
             "HCCH",
-            "1965-11-15T00:00:00.000",
-            "",
-            83,
+            "1965-11-15",
+            null,
+            80,
             "Yes"
         ],
         [
             "1970 Hague Divorce Convention     ",
             "Convention of 1 June 1970 on the Recognition of Divorces and Legal Separations ",
             "HCCH",
-            "1970-06-01T00:00:00.000",
-            "",
+            "1970-06-01",
+            null,
             20,
             "Yes"
         ],
@@ -94,17 +94,17 @@
             "1970 Hague Evidence Convention",
             "Convention of 18 March 1970 on the Taking of Evidence Abroad in Civil or Commercial Matters",
             "HCCH",
-            "1970-03-18T00:00:00.000",
-            "",
-            67,
+            "1970-03-18",
+            null,
+            65,
             "Yes"
         ],
         [
             "1971 Hague Judgments Convention",
             "Convention of 1 February 1971 on the Recognition and Enforcement of Foreign Judgments in Civil and Commercial Matters",
             "HCCH",
-            "1971-02-01T00:00:00.000",
-            "",
+            "1971-02-01",
+            null,
             5,
             "No"
         ],
@@ -112,8 +112,8 @@
             "1971 Hague Judgments Protocol",
             "Supplementary Protocol of 1 February 1971 to the Hague Convention on the Recognition and Enforcement of Foreign Judgments in Civil and Commercial Matters",
             "HCCH",
-            "1971-02-01T00:00:00.000",
-            "",
+            "1971-02-01",
+            null,
             4,
             "No"
         ],
@@ -121,8 +121,8 @@
             "1971 Hague Traffic Accidents Convention",
             "Convention of 4 May 1971 on the Law Applicable to Traffic Accidents",
             "HCCH",
-            "1971-05-04T00:00:00.000",
-            "",
+            "1971-05-04",
+            null,
             21,
             "No"
         ],
@@ -130,8 +130,8 @@
             "1973 Hague Administration of Estates  Convention",
             "Convention of 2 October 1973 Concerning the International Administration of the Estates of Deceased Persons",
             "HCCH",
-            "1973-10-02T00:00:00.000",
-            "",
+            "1973-10-02",
+            null,
             3,
             "No"
         ],
@@ -139,8 +139,8 @@
             "1973 Hague Maintenance Applicable Law Convention",
             "Convention of 2 October 1973 on the Law Applicable to Maintenance Obligations",
             "HCCH",
-            "1973-10-02T00:00:00.000",
-            "",
+            "1973-10-02",
+            null,
             15,
             "No"
         ],
@@ -148,8 +148,8 @@
             "1973 Hague Maintenance Enforcement Convention",
             "Convention of 2 October 1973 on the Recognition and Enforcement of Decisions Relating to Maintenance Obligations",
             "HCCH",
-            "1973-10-02T00:00:00.000",
-            "",
+            "1973-10-02",
+            null,
             24,
             "No"
         ],
@@ -157,8 +157,8 @@
             "1973 Hague Product Liability Convention",
             "Convention of 2 October 1973 on the Law Applicable to Products Liability",
             "HCCH",
-            "1973-10-02T00:00:00.000",
-            "",
+            "1973-10-02",
+            null,
             11,
             "No"
         ],
@@ -166,8 +166,8 @@
             "1978 Hague Agency  Convention   ",
             "Convention of 14 March 1978 on the Law Applicable to Agency",
             "HCCH",
-            "1978-03-14T00:00:00.000",
-            "",
+            "1978-03-14",
+            null,
             4,
             "No"
         ],
@@ -175,8 +175,8 @@
             "1978 Hague Marriage Convention                ",
             "Convention of 14 March 1978 on Celebration and Recognition of the Validity of Marriages",
             "HCCH",
-            "1978-03-14T00:00:00.000",
-            "",
+            "1978-03-14",
+            null,
             3,
             "No"
         ],
@@ -184,8 +184,8 @@
             "1978 Hague Matrimonial Property Convention                     ",
             "Convention of 14 March 1978 on the Law Applicable to Matrimonial Property Regimes",
             "HCCH",
-            "1978-03-14T00:00:00.000",
-            "",
+            "1978-03-14",
+            null,
             3,
             "No"
         ],
@@ -193,8 +193,8 @@
             "1980 Hague Access to Justice Convention",
             "Convention of 25 October 1980 on International Access to Justice",
             "HCCH",
-            "1980-10-25T00:00:00.000",
-            "",
+            "1980-10-25",
+            null,
             28,
             "Yes"
         ],
@@ -202,17 +202,17 @@
             "1980 Hague Child Abduction Convention",
             "Convention of 25 October 1980 on the Civil Aspects of International Child Abduction",
             "HCCH",
-            "1980-10-25T00:00:00.000",
-            "",
-            102,
+            "1980-10-25",
+            null,
+            104,
             "Yes"
         ],
         [
             "1985 Hague Trusts Convention",
             "Convention of 1 July 1985 on the Law Applicable to Trusts and on their Recognition",
             "HCCH",
-            "1985-07-01T00:00:00.000",
-            "",
+            "1985-07-01",
+            null,
             14,
             "Yes"
         ],
@@ -220,8 +220,8 @@
             "1993 Hague Adoption Convention   ",
             "Convention of 29 May 1993 on Protection of Children and Co-operation in Respect of Intercountry Adoption",
             "HCCH",
-            "1993-05-29T00:00:00.000",
-            "",
+            "1993-05-29",
+            null,
             105,
             "Yes"
         ],
@@ -229,17 +229,17 @@
             "1996 Hague Child Protection Convention     ",
             "Convention of 19 October 1996 on Jurisdiction, Applicable Law, Recognition, Enforcement and Co-operation in respect of Parental Responsibility and Measures for the Protection of Children",
             "HCCH",
-            "1996-10-19T00:00:00.000",
-            "",
-            54,
+            "1996-10-19",
+            null,
+            53,
             "Yes"
         ],
         [
             "2000 Hague Protection of Adults  Convention",
             "Hague Convention of 13 January 2000 on the International Protection of Adults ",
             "HCCH",
-            "2000-01-13T00:00:00.000",
-            "",
+            "2000-01-13",
+            null,
             14,
             "Yes"
         ],
@@ -247,17 +247,17 @@
             "2005 Hague Choice of Court Convention  ",
             "Convention of 30 June 2005 on Choice of Court Agreements",
             "HCCH",
-            "2005-06-30T00:00:00.000",
-            "",
-            31,
+            "2005-06-30",
+            null,
+            30,
             "Yes"
         ],
         [
             "2006 Hague Securities Convention",
             "Convention of 5 July 2006 on the Law Applicable to Certain Rights in Respect of Securities held with an Intermediary",
             "HCCH",
-            "2006-07-05T00:00:00.000",
-            "",
+            "2006-07-05",
+            null,
             3,
             "Yes"
         ],
@@ -265,17 +265,17 @@
             "2007 Hague Child Support Convention         ",
             "Convention of 23 November 2007 on the International Recovery of Child Support and Other Forms of Family Maintenance ",
             "HCCH",
-            "2007-11-23T00:00:00.000",
-            "",
-            48,
+            "2007-11-23",
+            null,
+            44,
             "Yes"
         ],
         [
             "2007 Hague Maintenance Obligation Protocol",
             "Protocol of 23 November 2007 on the Law Applicable to Maintenance Obligations",
             "HCCH",
-            "2007-11-23T00:00:00.000",
-            "",
+            "2007-11-23",
+            null,
             31,
             "Yes"
         ],
@@ -283,226 +283,217 @@
             "2019 Hague Judgments Convention",
             "Convention of 2 July 2019 on the Recognition and Enforcement of Foreign Judgments in Civil or Commercial Matters",
             "HCCH ",
-            "2019-07-02T00:00:00.000",
-            "",
-            27,
+            "2019-07-02",
+            null,
+            0,
             "Yes"
         ],
         [
             "Arab League",
             "League of Arab States",
             "Arab League",
-            "1945-03-22T00:00:00.000",
-            "",
+            "1945-03-22",
+            null,
             22,
-            ""
+            null
         ],
         [
             "ASEAN",
             "Association of South East Asian Nations",
             "ASEAN",
-            "1961-07-31T00:00:00.000",
+            "1961-07-31",
             "ASA",
             10,
-            ""
+            null
         ],
         [
             "AU",
             "African Union",
             "AU",
-            "1999-09-09T00:00:00.000",
-            "",
+            "1999-09-09",
+            null,
             55,
-            ""
+            null
         ],
         [
             "CARICOM",
             "Caribbean Community",
             "CARICOM",
-            "1973-07-04T00:00:00.000",
-            "",
+            "1973-07-04",
+            null,
             15,
-            ""
+            null
         ],
         [
             "CIS",
             "Commonwealth of Independent States",
             "CIS",
-            "1993-01-22T00:00:00.000",
-            "",
-            10,
-            ""
+            "1993-01-22",
+            null,
+            11,
+            null
         ],
         [
             "COMESA",
             "Common Market for Eastern and Southern Africa",
             "COMESA",
-            "1981-12-21T00:00:00.000",
+            "1981-12-21",
             "PTA",
             21,
-            ""
+            null
         ],
         [
             "EAC",
             "East African Community",
             "EAC",
-            "1999-11-30T00:00:00.000",
-            "",
-            8,
-            ""
+            "1999-11-30",
+            null,
+            7,
+            null
         ],
         [
             "ECHR",
             "Convention for the Protection of Human Rights and Fundamental Freedoms",
             "ECHR",
-            "1950-11-04T00:00:00.000",
-            "",
+            "1950-11-04",
+            null,
             46,
-            ""
+            null
         ],
         [
             "EEA ex EU",
             "European Economic Area excluding the European Union",
             "EEA",
-            "1992-05-02T00:00:00.000",
-            "",
+            "1992-05-02",
+            null,
             3,
-            ""
+            null
         ],
         [
             "EFTA",
             "European Free Trade Association",
             "EFTA",
-            "1960-01-12T00:00:00.000",
-            "",
+            "1960-01-12",
+            null,
             4,
-            ""
+            null
         ],
         [
             "EU",
             "European Union",
             "EU",
-            "1957-03-25T00:00:00.000",
-            "",
+            "1957-03-25",
+            null,
             27,
-            ""
+            null
         ],
         [
             "EZ",
             "Eurozone",
             "Eurozone",
-            "1992-02-07T00:00:00.000",
-            "",
+            "1992-02-07",
+            null,
             20,
-            ""
+            null
         ],
         [
             "G7",
             "Group of Seven",
             "G7",
-            "1973-03-25T00:00:00.000",
+            "1973-03-25",
             "Library Group",
             7,
-            ""
+            null
         ],
         [
             "GCC",
             "Gulf Cooperation Council",
             "GCC Member States",
-            "1981-05-25T00:00:00.000",
-            "",
+            "1981-05-25",
+            null,
             6,
-            ""
+            null
         ],
         [
             "Lugano Convention",
             "Convention on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters",
             "Lugano Convention",
-            "2007-10-30T00:00:00.000",
-            "",
+            "2007-10-30",
+            null,
             30,
-            ""
+            null
         ],
         [
             "MERCOSUR",
             "Southern Common Market",
             "MERCOSUR",
-            "1991-03-26T00:00:00.000",
-            "",
+            "1991-03-26",
+            null,
             4,
-            ""
+            null
         ],
         [
             "New York Convention",
             "UN Convention on the Recognition and Enforcement of Foreign Arbitral Awards",
             "New York Convention",
-            "1958-06-10T00:00:00.000",
-            "",
+            "1958-06-10",
+            null,
             172,
-            ""
+            null
         ],
         [
             "OECD",
             "Organisation for Economic Co-operation and Development",
             "OECD",
-            "1948-04-16T00:00:00.000",
+            "1948-04-16",
             "OECC",
             38,
-            ""
+            null
         ],
         [
             "OHADA",
             "Organization for the Harmonization of Business Law in Africa",
             "OHADA",
-            "1993-10-17T00:00:00.000",
-            "",
+            "1993-10-17",
+            null,
             17,
-            ""
+            null
         ],
         [
             "RCEP",
             "Regional Comprehensive Economic Partnership",
             "RCEP",
-            "2020-11-15T00:00:00.000",
-            "",
+            "2020-11-15",
+            null,
             15,
-            ""
+            null
         ],
         [
             "Schengen",
             "Schengen Area of the European Union",
             "Schengen",
-            "1985-06-14T00:00:00.000",
-            "",
+            "1985-06-14",
+            null,
             27,
-            ""
+            null
         ],
         [
             "SICA",
             "Central American Integration System",
             "SICA",
-            "1991-12-13T00:00:00.000",
-            "",
+            "1991-12-13",
+            null,
             8,
-            ""
+            null
         ],
         [
             "USMCA",
             "United States - Mexico - Canada Agreement",
             "FTA",
-            "1992-12-17T00:00:00.000",
+            "1992-12-17",
             "NAFTA",
             4,
-            ""
-        ],
-        [
-            "Rome Statute",
-            "Rome Statute of the International Criminal Court",
-            "Rome Statute",
-            "1998-07-17T00:00:00.000",
-            "",
-            124,
-            ""
+            null
         ]
     ]
 }

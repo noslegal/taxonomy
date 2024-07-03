@@ -1,14 +1,14 @@
 {
-    "columns": [
+    "columns":[
         "Alt region",
         "Definition",
         "Notes"
     ],
-    "data": [
+    "data":[
         [
             "AMER",
             "Americas",
-            ""
+            null
         ],
         [
             "EMEA_1",
@@ -18,7 +18,7 @@
         [
             "APAC_1",
             "Oceania, Eastern Asia, South-eastern Asia, Southern Asia",
-            ""
+            null
         ],
         [
             "EMEA_2",
@@ -28,7 +28,7 @@
         [
             "APAC_2",
             "Oceania, Eastern Asia, South-eastern Asia, Southern Asia plus Iran",
-            ""
+            null
         ],
         [
             "EMEA_3",
@@ -38,7 +38,7 @@
         [
             "APAC_3",
             "Oceania, Central Asia, Eastern Asia, South-eastern Asia, Southern Asia plus Iran",
-            ""
+            null
         ]
     ]
 }
