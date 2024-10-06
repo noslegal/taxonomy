@@ -1,4 +1,4 @@
-Code,Name,Parent,Definition,Notes,Synonym,Examples,NACE division,NACE name
+Code,Name,Parent,Definition,Notes,Synonyms,Examples,NACE division,NACE name
 lse-agr-1,Farming,lse-agr,,Includes crops; animal rearing and slaughter; milk and wool production; seed processing; hunting and trapping. Excludes food processing - see lse-mfg,,,1,"Crop and animal production, hunting and related service activities"
 lse-agr-2,Forestry,lse-agr,,Includes logging and non-wood forestry products,,,2,Forestry and logging
 lse-agr-2,Fishing,lse-agr,,Includes fish farming and other aquaculture,,,3,Fishing and aquaculture
@@ -30,6 +30,6 @@ lse-fsv-5.3,Money markets,lse-fsv,,,,,,
 lse-fsv-5.4,Derivatives markets,lse-fsv,,Includes futures markets,,,,
 lse-fsv-5.5,Foreign exchange markets,lse-fsv,,,,,,
 lse-fsv-5.6,OTC markets,lse-fsv,,Markets for 'over-the-counter' bilateral trading in securities not listed on a recognised exchange,,,,
-lse-ser-1,Lawyers ,lse-ser,,,Legal services,,691,
+lse-ser-1,Lawyers,lse-ser,,,Legal services,,691,
 lse-ser-2,Accountants,lse-ser,,Includes tax services,Accounting,,692,
 lse-ser-3,Vehicle rental,lse-ser,,"Includes short term (e.g. car hire) and longer term (e.g. car financing) transactions, but not taxis and similar (which are transport services - see ISIC 492)",,,77.1,
