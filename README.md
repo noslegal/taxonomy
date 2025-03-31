@@ -1,5 +1,5 @@
 # taxonomy
-This repository contains (1) the eight facets of the noslegal taxonomy (v 3.0 release / March 2025) in Excel (2) release notes (3) a guide to the taxonomy
+This repository contains (1) all eight facets of the noslegal taxonomy (v 3.0 release / March 2025) in Excel (2) release notes (3) a guide to the taxonomy
 There are three Excel files. One contains facets 1 - 6 (laws, work types, sectors, participants, connectors, information assets). The second contains facet 7 (places) and a third with facet 8 (work elements).
 json and csv versions will be added soon.
 The taxonomy is intended for classifying legal work and related things (e.g. documents and experience).<br><br>
