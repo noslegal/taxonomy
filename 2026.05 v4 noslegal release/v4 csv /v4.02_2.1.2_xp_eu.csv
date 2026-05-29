@@ -1,0 +1,70 @@
+Code,Name,Topics
+law-sec,Sectoral laws,
+law-sec-agr,Agriculture law,
+law-sec-agr-1,Agriculture and land use law,"CAP pillar 1 (direct payments), CAP pillar 2 (rural development), Agri-environment schemes, CPVO (plant variety rights)"
+law-sec-nar,Natural resources law,
+law-sec-nar-1,Mining and minerals law,
+law-sec-nar-2,Oil and gas law,
+law-sec-mfg,Manufacturing law,
+law-sec-mfg-1,Product safety law,"CE marking, General Product Safety Regulation (GPSR)"
+law-sec-mfg-2,Industrial operations law,"Industrial Emissions Directive (IED), Seveso III Directive, EU BAT conclusions"
+law-sec-mfg-3,Chemicals law,"EU REACH, EU CLP, EU BPR, CBAM (chemicals)"
+law-sec-ens,Energy supply law,
+law-sec-ens-1,Electricity law,"Clean Energy Package (Electricity Regulation 2019/943), Internal electricity market rules"
+law-sec-ens-2,Gas law,"EU Gas Directive (2009/73), Hydrogen and Decarbonised Gas Markets Regulation"
+law-sec-ens-3,Renewable energy law,"Renewable Energy Directive (RED III), Guarantees of Origin"
+law-sec-ens-4,Nuclear energy law,"Euratom Treaty, EU nuclear safety Directive"
+law-sec-wtw,Water and waste law,
+law-sec-wtw-1,Water services law,"Water Framework Directive, Bathing Water Directive"
+law-sec-wtw-2,Waste management law,"EU WEEE Directive, End-of-life vehicles Directive, Packaging and Packaging Waste Regulation, Circular Economy Action Plan"
+law-sec-csn,Construction law,
+law-sec-csn-1,Construction contracts law,
+law-sec-csn-2,Infrastructure law,EU public procurement directives (2014/24 and 2014/25)
+law-sec-rwt,Retail and wholesale trade law,
+law-sec-rwt-1,Retail law,"Tobacco Products Directive, Digital Services Act (marketplace obligations)"
+law-sec-rwt-2,Wholesale and distribution law,"VBER (vertical agreements block exemption), Late Payment Directive, CSDDD (supply chain due diligence)"
+law-sec-trs,Transportation and storage law,
+law-sec-trs-1,Rail law,"EU Rail Packages (liberalisation), Rail passenger rights regulation, Single European Railway Area (SERA)"
+law-sec-trs-2,Road law,"Tachograph regulation, Drivers' hours (Regulation 561/2006), Road haulage market access"
+law-sec-trs-3,Maritime law,
+law-sec-trs-4,Aviation law,"EASA, Air Passenger Rights Regulation (261/2004)"
+law-sec-trs-5,Space law,
+law-sec-trs-6,Storage law,
+law-sec-hos,Hospitality services law,
+law-sec-hos-1,Hotel and accommodation law,Timeshare and holiday products Directive (2008/122)
+law-sec-hos-2,Food and beverage law,"General Food Law Regulation (178/2002), Food labelling regulation"
+law-sec-ins,Information and recreational services law,
+law-sec-ins-1,Telecommunications law,"EU Electronic Communications Code (EECC), BEREC"
+law-sec-ins-2,Media and entertainment law,"Audiovisual Media Services Directive (AVMSD), Content production quotas"
+law-sec-ins-3,Sports law,"EU sports policy, Bosman ruling (free movement in sport)"
+law-sec-ins-4,Gambling law,"Online gambling (national competence — fragmented), AML gambling provisions"
+law-sec-ins-5,Postal services law,EU Postal Services Directive
+law-sec-fsv,Financial services law,
+law-sec-fsv-1,Banking law,"CRD VI / CRR III, PSD2 / PSD3, MiCA (Regulation 2023/1114)"
+law-sec-fsv-2,Investment management and conduct law,"MiFID II / MiFIR (2014/65 and 600/2014); AIFMD / AIFMD II (Directive 2024/927); UCITS Directive (2009/65); ELTIF Regulation (2023/606); PRIIPs Regulation (1286/2014); SFDR (Sustainable Finance Disclosure Regulation, 2019/2088); PEPP Regulation (2019/1238, pan-European personal pension product); ESMA conduct and suitability guidelines"
+law-sec-fsv-3,Insurance law,"Solvency II, IDD (Insurance Distribution Directive)"
+law-sec-fsv-4,Operational and digital resilience law,"DORA (Digital Operational Resilience Act, Regulation 2022/2554, applicable January 2025); RTS/ITS under DORA (including Commission Delegated Regulation 2024/1772 on incident classification); Oversight framework for critical ICT third-party providers (CTPPs); TIBER-EU framework for threat-led penetration testing; EBA/ESMA/EIOPA joint guidelines on ICT and security risk management (EBA/GL/2019/04); EBA cloud outsourcing guidelines (EBA/GL/2019/02)"
+law-sec-fsv-5,Financial market infrastructure law,"EMIR (648/2012) and EMIR Refit (2019/834); EMIR 3.0 (2024/2987); CSDR (909/2014) and CSDR Refit; Central clearing mandate and clearing thresholds; CCP Recovery and Resolution Regulation (2021/23); ESMA CCP supervision under EMIR 2.2; Trade repository reporting and data quality; SFTR (Securities Financing Transactions Regulation, 2015/2365)"
+law-sec-fsv-6,Pensions and occupational savings law,IORP II Directive (2016/2341) and national implementing measures; EIOPA stress testing of institutions for occupational retirement provision; Cross-border IORP requirements and host state regulation; PEPP Regulation (2019/1238) — pan-European personal pension product; ESG integration in pension fund investment (IORP II Articles 19 and 28); Solvency II interface for pension buy-out and longevity risk transfer
+law-sec-res,Real estate sector law,
+law-sec-res-1,Commercial real estate law,
+law-sec-res-2,Residential real estate law,
+law-sec-res-3,Rural real estate law,
+law-sec-pub,Public sector and NGO law,
+law-sec-pub-1,Foreign affairs law,
+law-sec-pub-2,Defence law,
+law-sec-pub-3,Public order and safety law,
+law-sec-pub-4,Social security law,"Social security coordination (Regulation 883/2004), Posted workers social security"
+law-sec-pub-5,Migration law,"EU freedom of movement, EU Blue Card Directive, Schengen rules, CEAS (Common European Asylum System)"
+law-sec-pub-6,General government law,"EU public procurement directives, Access to documents (Regulation 1049/2001)"
+law-sec-pub-7,Charitable and not for profit law,
+law-sec-pub-8,International organisation law,
+law-sec-edu,Education law,
+law-sec-edu-1,Education law,"Bologna Process, Erasmus+"
+law-sec-hsc,Care law,
+law-sec-hsc-1,Healthcare law,"Medical Device Regulation (MDR), Clinical Trials Regulation, EMA (European Medicines Agency)"
+law-sec-hsc-2,Social care law,
+law-sec-pro,Professional services law,
+law-sec-pro-1,Legal services law,"Lawyers Services Directive (77/249), Lawyer Establishment Directive (98/5)"
+law-sec-pro-2,Accounting / audit services law,"EU Statutory Audit Directive, EU Audit Regulation (537/2014), CEAOB"
+law-sec-pro-3,Other regulated professions law,Professional Qualifications Directive (2005/36)

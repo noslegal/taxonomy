@@ -1,0 +1,87 @@
+Code,Name,Topics
+law,Area of law,
+law-cor,Corporate law,
+law-cor-1,Business entity law,"LLPs (limited liability partnerships), CICs (community interest companies), Friendly societies, Industrial and provident societies, PSC (person with significant control) / beneficial-ownership registers"
+law-cor-2,Corporate finance,Financial assistance prohibition 
+law-cor-3,Corporate governance,"Stewardship Code, Stakeholder reporting "
+law-cor-4,Liability,"Unfair prejudice, Shadow director liability"
+law-cor-5,Securities law,
+law-cbo,Cross-border law,
+law-cbo-1,Public international and supranational law,
+law-cbo-2,Private international law,
+law-cbo-3,Trade law,
+law-cbo-4,Sanctions,"OFSI, Sanctions and Money Laundering Act"
+law-evp,Evidence and procedural law,
+law-evp-1,Evidence law,"Legal professional privilege, Legal advice privilege, Litigation privilege"
+law-evp-2,Procedural law,
+law-fam,Family law,
+law-fam-1,Relationships,Civil partnership
+law-fam-2,Divorce and separation,"Dissolution of civil partnership, Judicial separation, Pension sharing on divorce"
+law-fam-3,Children,
+law-fam-4,Domestic abuse,"Non-molestation orders, Occupation orders, Forced marriage protection orders"
+law-fin,Financial law,
+law-fin-1,Payment law,
+law-fin-2,Credit law,
+law-fin-3,Security and collateral law,"Floating charge, Debenture"
+law-fin-4,Guarantee and credit support law,
+law-fin-5,Financial market contracts,
+law-fin-6,Sovereign and public finance law,
+law-inf,Information law,
+law-inf-1,Expression law,"Reporting restrictions, Contempt of court, Privacy injunctions"
+law-inf-2,Freedom of information law,"Freedom of Information Act, Environmental Information Regulations"
+law-inf-3,Data protection and privacy,"UK GDPR, UK Data Protection Act"
+law-inf-4,Digital regulation,Online Safety Act 
+law-inf-5,National security law,"Proscription of organisations, National Security and Investment Act"
+law-isv,Insolvency and restructuring law,
+law-isv-1,Corporate insolvency law,"Administration, Pre-pack sale, CVA (company voluntary arrangement), Moratorium (CIGA 2020), Wrongful trading, Fraudulent trading, Preferences, Transactions at an undervalue, Scheme of arrangement, Restructuring plan"
+law-isv-2,Individual insolvency law,"IVA (individual voluntary arrangement), Debt relief order, Protected trust deed (Scotland)"
+law-isv-3,Public insolvency law,Special administration
+law-ipr,Intellectual property law,
+law-ipr-1,Copyright,"Fair dealing, TDM (text and data mining) exception"
+law-ipr-2,Patent,SPCs (supplementary protection certificates)
+law-ipr-3,Design right,"Unregistered design right, Registered design"
+law-ipr-4,Confidentiality,
+law-ipr-5,Trade mark,Passing off
+law-ipr-6,Plant breeders right,
+law-ipr-7,Database right,UK database right
+law-ipr-8,Indication of origin,UK GI schemes
+law-lab,Labour law,
+law-lab-1,Individual employment law,"Unfair dismissal, Redundancy payments, TUPE (Transfer of Undertakings, Protection of Employment Regulations), Working time rights"
+law-lab-2,Employee benefits law,"Occupational pension schemes, Pension scheme governance"
+law-lab-3,Trade unions and collective bargaining,"Statutory trade union recognition, Collective redundancy consultation"
+law-lnd,Land law,
+law-lnd-1,General land law,"Freehold, Leasehold, Easements and restrictive covenants, Compulsory purchase"
+law-lnd-2,Planning law,"Planning permission, Development consent orders — planning dimension, Listed building and conservation area consent, Community infrastructure levy (CIL)"
+law-lnd-3,Environmental law,
+law-obl,Obligations law,
+law-obl-1,Contract law,
+law-obl-2,Delict / tort law,
+law-obl-3,Restitution and unjust enrichment,
+law-obl-4,Law of agency,Mercantile agents
+law-paf,Personal affairs,
+law-paf-1,"Trusts, wills and estate planning",
+law-paf-2,Succession and estate administration,Inheritance and family provision claims
+law-paf-3,Personal capacity,"Lasting power of attorney, Court of Protection issues, Deprivation of liberty safeguards"
+law-prp,Personal property law,
+law-prp-1,Goods,
+law-prp-2,Intangible property,
+law-pub,Public law,
+law-pub-1,Administrative and constitutional law,"Parliamentary privilege, Royal prerogative, Devolution (Scotland, Wales, Northern Ireland), Established religion (Church of England)"
+law-pub-2,Human and individual rights,
+law-reg,Regulatory,
+law-reg-1,Competition law,CMA (Competition and Markets Authority)
+law-reg-2,State aid law,Subsidy control
+law-reg-3,Utility and monopoly regulation,
+law-reg-4,Consumer law,Consumer Rights Act 
+law-reg-5,Professional regulation,
+law-reg-6,Equality and cohesion law,
+law-reg-7,Climate law,UK ETS (UK Emissions Trading Scheme)
+law-tax,Tax law,
+law-tax-1,Direct taxation,
+law-tax-2,Indirect taxation,"VAT (Value Added Tax), Stamp duty land tax (SDLT), Stamp duty reserve tax (SDRT)"
+law-wro,Wrongdoing,
+law-wro-1,Violence,"Murder, Manslaughter, Culpable homicide, Grievous bodily harm (GBH), Actual bodily harm (ABH), Offences Against the Person Act"
+law-wro-2,Financial and property wrongdoing,
+law-wro-3,Illicit goods and markets,Illegal working
+law-wro-4,Environmental and safety misconduct,Corporate manslaughter
+law-wro-5,Justice and administration misconduct,Misconduct in public office

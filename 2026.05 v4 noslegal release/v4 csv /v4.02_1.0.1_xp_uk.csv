@@ -1,0 +1,52 @@
+Code,Name,Topics - UK
+wkt,Work type,
+wkt-dev,Development,
+wkt-dev-1,New development,
+wkt-dev-2,Modification / expansion,
+wkt-dev-3,Decommissioning,
+wkt-dsp,Dispute resolution,
+wkt-dsp-1,Consensual resolution,Financial dispute resolution (FDR) 
+wkt-dsp-2,Litigation,Statutory tribunal
+wkt-dsp-3,Arbitration,Statutory arbitration
+wkt-dsp-4,Determinative resolution,"Construction adjudication, Rent review determination"
+wkt-dsp-5,Enforcement,"Charging orders, Third-party debt orders, Attachment of earnings"
+wkt-enb,Enablement,
+wkt-enb-1,Delivery,
+wkt-enb-2,Revenue support,
+wkt-enb-3,Internal resources,
+wkt-enb-4,Personnel,
+wkt-enb-5,Entity management,
+wkt-enb-6,Third party relationships,
+wkt-enb-7,Organisational initiatives,
+wkt-enb-8,Authority requests,
+wkt-enb-9,Representation (residual),Planning applications
+wkt-enb-10,Advice (residual),
+wkt-fin,Finance,
+wkt-fin-1,Debt finance,
+wkt-fin-2,Equity finance,
+wkt-fin-3,Derivatives,
+wkt-fin-4,Securitisation,
+wkt-fin-5,Project and asset finance,PFI (private finance initiative)
+wkt-fin-6,Trade and receivables finance,
+wkt-fin-7,Collective investments,OEIC (open-ended investment company)
+wft-fin-8,Loan portfolio sales,
+wkt-grc,GRC and policy,
+wkt-grc-1,Government affairs,"Parliamentary engagement, Devolved government engagement (Scotland, Wales, Northern Ireland, English cities and regions)"
+wkt-grc-2,Regulatory affairs,
+wkt-grc-3,Risk and compliance,
+wkt-grc-4,Governance,
+wkt-ivp,Investigative process,
+wkt-ivp-1,Incident response,
+wkt-ivp-2,Inquiry (official),"Statutory public inquiry, Select committee inquiry, Coroner's inquest"
+wkt-ivp-3,Investigation (internal),
+wkt-ivp-4,Investigation (official),SFO investigation
+wkt-ivp-5,Prosecution or enforcement,
+wkt-dir,Dissolution and restructuring,
+wkt-dir-1,Reorganisation (solvent),"Scheme of arrangement, Restructuring plan"
+wkt-dir-2,Turnaround / liquidation,"Administration, Pre-pack administration, CVA (company voluntary administration), Creditors' voluntary liquidation, Compulsory liquidation (winding up), IVA (individual voluntary arrangement)"
+wkt-dir-3,Deceased estates,Executry (Scotland)
+wkt-dir-4,Separation,
+wkt-tra,Transaction,
+wkt-tra-1,M&A,
+wkt-tra-2,Commercial contracts,
+wkt-tra-3,Non-commercial transaction,

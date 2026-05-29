@@ -1,0 +1,11 @@
+Code,Name,Parent,Definition,Examples
+inf-aud,Information asset audience,,An attribute of an information asset signifying who it is intended for,
+inf-aud-1,Internal,inf-aud,People within this organisation only,"Guidance notes, templates"
+inf-aud-1.1,Legal professionals,inf-aud-1,People who do legal work and have or are seeking to develop some expertise there,
+inf-aud-1.2,Business people,inf-aud-1,People who are not seeking to do legal work ,
+inf-aud-2,External,inf-aud,"People outside this organisation, as well as those inside it","Contracts, pleadings, witness statements"
+inf-aud-2.1,Client,inf-aud-2,"A specific client, or clients generally",Legal advice to a particular client
+inf-aud-2.2,Prospect,inf-aud-2,"A prospective client, or prospective clients generally",Pitch contents targeted at a particular prospect
+inf-aud-2.3,Public,inf-aud-2,"The world at large, outside any more specific type - includes media as routes to the public",
+inf-aud-2.4,Counterparty,inf-aud-2,"The other side in a transaction, dispute or other matter",Counterparty to an executed agreement; opposing party in litigation or arbitration; other party to regulatory proceedings
+inf-aud-2.5,Authority,inf-aud-2,"A court, governmental body or other quasi-official (e.g. professional regulatory) body",

@@ -1,0 +1,12 @@
+Code,noslegal name,Parent,Synonym,noslegal short notes,NACE division,NACE name
+sec-mfg-10,Tobacco products,sec-mfg,,Includes cigarettes but not vaping products (classified as chemicals),12,Manufacture of tobacco products
+sec-mfg-11,Leather products,sec-mfg,,,15,Manufacture of leather and related products of other materials
+sec-mfg-12,Wood products,sec-mfg,,Except furniture,16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+sec-mfg-13,Paper products,sec-mfg,,,17,Manufacture of paper and paper products
+sec-mfg-14,Recorded media,sec-mfg,,,18,Printing and reproduction of recorded media
+sec-mfg-15,Rubber and plastic products,sec-mfg,,,22,Manufacture of rubber and plastic products
+sec-mfg-16,Non-metallic mineral products,sec-mfg,,,23,Manufacture of other non-metallic mineral products
+sec-mfg-17,Metal products,sec-mfg,,,"24,25","Manufacture of basic metals; manufacture of fabricated metal products, except machinery and equipment"
+sec-mfg-18,Furniture,sec-mfg,,,31,Manufacture of furniture
+sec-mfg-19,Other manufacturing,sec-mfg,,,32,Other manufacturing
+sec-mfg-20,Repair,sec-mfg,,,33,"Repair, maintenance and installation of machinery and equipment"

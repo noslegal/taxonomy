@@ -1,0 +1,12 @@
+Code,Name,Parent,Definition,Synonyms,Examples
+inf,Information type,,"Anything in which information of any description is recorded. This includes documents in the widely understood paper or digital sense. But it also extends beyond documents to computational models, interactive experiences and any other format in which information is embodied.
+","Document, information asset, artefact, artifact",
+inf-1,Legal document,inf,"Material which has or is intended to have legal effect (e.g. a contract, a court order) or to provide formal evidence of a legal status (e.g. a patent, a title registry extract) or to influence a legal conclusion (e.g. a terms proposal, a litigation pleading)",,
+inf-2,Legal analysis,inf,"Material describing or applying the law, produced for an internal audience or a client or their agent. Includes requests for advice, instructions to counsel, research notes, and the resulting advice or opinion.","Advice, opinion",
+inf-3,Legal source,,"Primary or secondary source material recording the state of the law, including legislation, case law, regulatory and official guidance, and secondary commentary. Distinguished from legal analysis (inf-2) in that legal sources are external authoritative materials, or analytical materials produced externally to this organisation.",,
+inf-4,Process material,inf,"Material created to plan, deliver, manage, track or record legal work. Covers both prospective material (how work should proceed) and descriptive material (how it did proceed or what it cost).",,
+inf-5,Administrative material,inf,"A record of an administrative or compliance step required to initiate, govern or close a legal engagement or matter.",,
+inf-6,Evidence,inf,Material which does not fall into one of the more specific types and represents evidence in the context of a legal matter or remit (e.g. dispute or transaction),,
+inf-7,Organisational record,inf,"A record of the governance, decisions, status or policies of an organisation, whether the client organisation, the legal service provider, or a third party.",,
+inf-8,Publication,inf,Content published for an external audience other than in connection with a specific client matter.,,
+inf-9,Communication,inf,A record of a communication in legal work not otherwise classified by another information type. Residual: most substantive communications (e.g. a formal advice letter) will be better classified as one of the more specific types.,,

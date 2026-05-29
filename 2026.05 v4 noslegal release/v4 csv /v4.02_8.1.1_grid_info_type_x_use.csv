@@ -1,0 +1,27 @@
+Examples of combinations of information types and uses,"Work record > general
+(inf-use-1)","Work record > key
+(inf-use-2)","Knowledge > contextual
+(inf-use-3)","Knowledge > good practice
+(inf-use-4)","Knowledge > canonical
+(inf-use-5)"
+"Legal document
+(inf-1)","Draft contract, term sheet, unsigned notice, draft board resolution; draft pleading or statement of case, draft witness statement, draft skeleton argument, draft consent order, draft charge or indictment","Executed agreement, signed deed, final notice with legal effect, board resolution authorised and signed; filed pleading or statement of case, sealed court order, final judgment or decree, executed settlement agreement, regulatory enforcement notice, charging document","Prior agreement with the same counterparty or on the same subject matter (e.g. to check for inconsistent terms or obligations); prior pleading or order involving the same party or arising from the same facts (e.g. a prior injunction, a related regulatory notice, a settlement agreement whose terms are relevant to subsequent proceedings)",Example of a well-structured agreement on a recurring transaction type; clause library entry; example well-drafted statement of claim or particulars of claim; precedent skeleton argument or written submission on a standard legal issue; example consent order or agreed form of relief,"Standard form agreement adopted by the organisation (e.g. house form NDA, ISDA master, approved board resolution template); approved precedent pleadings or claim forms for standard matter types; standard form orders for routine applications; mandatory form of charge or indictment where prescribed by rules or practice direction"
+"Legal analysis
+(inf-2)","Draft advice, interim research note, work-in-progress memorandum",Final legal opinion delivered to client or board; concluded due diligence report,Prior advice given to the same client or on the same issue (e.g. to ensure consistency of position),"Example memo on a recurring issue, annotated as good practice for structure or reasoning",Definitive internal guidance note or playbook on a legal issue or transaction type; approved legal policy
+"Legal source
+(inf-3)","Statute, case or guidance gathered for a specific matter but of no general significance beyond it",Authoritative source that is a key reference point for the outcome of this matter (e.g. the central statutory provision in dispute),Case or guidance that is contextually relevant to ongoing work for this client or in this subject area,"Selected articles, treatises, official guidance notes recommended as useful secondary reading on a recurring topic",Core reliable databases and authoritative treatises that represent the primary reference point for the organisation on a topic or jurisdiction
+"Process material
+(inf-4)","Draft task list, working budget, in-progress timeline",Approved matter plan and budget; final timeline agreed with client; closing checklist completed,Record of how process and costs developed in a comparable matter (for estimating and scoping similar future work),Process map or checklist validated as a good starting point for matters of this type,Centrally curated and approved process map or playbook for a standard matter or transaction type; mandatory billing guideline template
+"Administrative material
+(inf-5)","Draft engagement letter, blank KYC form, conflicts search in progress","Signed engagement letter, completed conflicts check, completed KYC record",Record of how a specific administrative issue was handled for this client or counterparty previously,Example of good-practice handling of an unusual KYC or AML scenario,Mandatory compliance procedure or template; approved form of engagement letter
+"Evidence
+(inf-6)",Document obtained in discovery or due diligence; witness statement in draft,"Key evidential document, expert report or exhibit central to the matter outcome","Evidence used in one matter that may be relevant in other contexts for the same client (e.g. same facts arising in parallel civil, criminal and regulatory proceedings)","Good example of a well-drafted affidavit and ssupporting materials for a particular type of application / motion, Good ediscovery / edisclosure search terms / prompts","Template for a witness statement, Document production format"
+"Organisational record
+(inf-7)",Enterprise project plans where legal is a workstream; integration plans in early stages,Board minute recording a key decision or instruction relevant to this matter; email recording a binding instruction from the client,Records of decisions or policies relating to this client or portfolio of work; governance decisions relevant to a particular jurisdiction or transaction type,"Governance documents relevant to a particular niche or locale, recommended as useful reference","Important internal policies, approved constitutional document templates, standard form board minutes and governance documents"
+"Publication
+(inf-8)",,,,"Article or client guide on a recurring legal topic, endorsed as useful reference",Definitive firm publication on a topic; official policy or position statement
+"Communication
+(inf-9)",Matter email not falling into another type,"Email recording a key decision, instruction or commitment in this matter",Communication recording a significant position or representation made to or by this client or counterparty,,
+,,,,,
+yellow = significant examples exist,,,,,
+blue = unlikely to be a significant combination,,,,,

@@ -1,0 +1,87 @@
+Code,Name,Topics
+law,Area of law,
+law-cor,Corporate law,
+law-cor-1,Business entity law,
+law-cor-2,Corporate finance,
+law-cor-3,Corporate governance,
+law-cor-4,Liability,
+law-cor-5,Securities law,
+law-cbo,Cross-border law,
+law-cbo-1,Public international and supranational law,
+law-cbo-2,Private international law,
+law-cbo-3,Trade law,
+law-cbo-4,Sanctions,"EU sanctions (EU Council regulations, EU restrictive measures)"
+law-evp,Evidence and procedural law,
+law-evp-1,Evidence law,
+law-evp-2,Procedural law,
+law-fam,Family law,
+law-fam-1,Relationships,"Registered partnerships, PACS"
+law-fam-2,Divorce and separation,
+law-fam-3,Children,
+law-fam-4,Domestic abuse,
+law-fin,Financial law,
+law-fin-1,Payment law,
+law-fin-2,Credit law,
+law-fin-3,Security and collateral law,"Financial collateral arrangements, Hypothec"
+law-fin-4,Guarantee and credit support law,
+law-fin-5,Financial market contracts,
+law-fin-6,Sovereign and public finance law,
+law-inf,Information law,
+law-inf-1,Expression law,
+law-inf-2,Freedom of information law,Environmental Information Directive
+law-inf-3,Data protection and privacy,"GDPR, ePrivacy Directive"
+law-inf-4,Digital regulation,"Digital Markets Act, Digital Services Act, EU AI Act"
+law-inf-5,National security law,
+law-isv,Insolvency and restructuring law,
+law-isv-1,Corporate insolvency law,"COMI (centre of main interests), European insolvency proceedings"
+law-isv-2,Individual insolvency law,
+law-isv-3,Public insolvency law,
+law-ipr,Intellectual property law,
+law-ipr-1,Copyright,"TDM (text and data mining) exception, Author's resale right"
+law-ipr-2,Patent,"SPCs, Unitary Patent"
+law-ipr-3,Design right,"Community design, Unregistered community design"
+law-ipr-4,Confidentiality,
+law-ipr-5,Trade mark,
+law-ipr-6,Plant breeders right,
+law-ipr-7,Database right,
+law-ipr-8,Indication of origin,"PDO (protected designation of origin), PGI (protected geographical indication), TSG (traditional specialities guaranteed)"
+law-lab,Labour law,
+law-lab-1,Individual employment law,"Acquired rights, Working time"
+law-lab-2,Employee benefits law,
+law-lab-3,Trade unions and collective bargaining,"Works councils, European works councils, Information and consultation"
+law-lnd,Land law,
+law-lnd-1,General land law,
+law-lnd-2,Planning law,
+law-lnd-3,Environmental law,
+law-obl,Obligations law,
+law-obl-1,Contract law,
+law-obl-2,Delict / tort law,
+law-obl-3,Restitution and unjust enrichment,
+law-obl-4,Law of agency,Compensation for agents on termination
+law-paf,Personal affairs,
+law-paf-1,"Trusts, wills and estate planning",
+law-paf-2,Succession and estate administration,
+law-paf-3,Personal capacity,
+law-prp,Personal property law,
+law-prp-1,Goods,
+law-prp-2,Intangible property,
+law-pub,Public law,
+law-pub-1,Administrative and constitutional law,
+law-pub-2,Human and individual rights,EU Charter of Fundamental Rights
+law-reg,Regulatory,
+law-reg-1,Competition law,
+law-reg-2,State aid law,"EU state aid law, SGEI (service of general economic interest)"
+law-reg-3,Utility and monopoly regulation,
+law-reg-4,Consumer law,"Consumer Rights Directive, Unfair Commercial Practices Directive"
+law-reg-5,Professional regulation,
+law-reg-6,Equality and cohesion law,
+law-reg-7,Climate law,"EU Emissions Trading System (ETS), Carbon border adjustment mechanism (CBAM)"
+law-tax,Tax law,
+law-tax-1,Direct taxation,
+law-tax-2,Indirect taxation,"VAT Directive, Customs Union duties"
+law-wro,Wrongdoing,
+law-wro-1,Violence,
+law-wro-2,Financial and property wrongdoing,
+law-wro-3,Illicit goods and markets,
+law-wro-4,Environmental and safety misconduct,
+law-wro-5,Justice and administration misconduct,

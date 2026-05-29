@@ -1,0 +1,21 @@
+Code,Name,Parent,Definition,Notes on definition,Synonyms,Examples
+par,Participants,,"People, property and obligations",,,
+par-per,Person,par,,,,
+par-per-1,Individual,par-per,A single living human being,An individual operating under a trading name (a 'sole trader') should be regarded as an individual rather than an organisation. But their trading status can be captured as a role using XP1.,,
+par-per-2,Family,par-per,"Humans in a family relationship with each other, whether legally formalised (e.g. marriage, civil partnership, registered as parent, adoption) or not. Includes unmarried couples",,,
+par-per-3,Organisation,par-per,,,,
+par-per-3.1,Corporate body,par-per-3,"A private, commercial, charitable or not-for-profit entity other than a human which has legal personality and is not part of the state or other public body.",,,Most companies
+par-per-3.2,Unincorporated body,par-per-3,"A group of humans with some shared interest, not formalised into a corporate body. This may include traditional communities or charitable / not-for-profit groups. It may also include commercial groups, whether or not with specific legal incidents (e.g. joint liability of partners in an unincorporated partnership).",Families or corporate bodies are excluded from this concept.,,"Some general partnerships and clubs, though this depends on applicable law"
+par-per-3.3,Authority,par-per-3,"A state, international or other body carry out a public or similar (e.g. professional standards) function and exercises governmental or administrative power.","There is inevitably some scope for argument at the edges as to the line between a public entity / authority and the other types of organisation. Different legal systems may draw the line differently. However, the basic distinction is widely recognised.",,
+par-prp,Property,par,,,,
+par-prp-1,Land and buildings,par-prp,"Land, buildings and any interests in or relating to them (e.g. leases, licences, rights of way, mortgages)",,,
+par-prp-2,Tangible property,par-prp,"Physical things which can be owned, and which are not land or buildings",,"Goods, thing in possession","Commodities, chattels, personal effects"
+par-prp-3,Intangible property,par-prp,Anything of a non-physical nature in which property rights are recognised. Includes documents representing such rights.,,,"Intellectual property, patent, copyright, trade mark, trademark, trade-mark, share, debt portfolio, debenture, derivative, bank account, financial instrument, bill of lading, thing in action, chose in action, crypto asset, cryptocurrency, non-fungible token, NFT"
+par-obg,Obligation,par,,,,
+par-obg-1,Contracts,par-obg,Contractual relationships,Documents and other artifacts containing contract terms are addressed separately,,
+par-obg-2,Non-contractual obligation,par-obg,"Legal rights and duties of a private law nature, other than those incidental to personal relationships (par-ppl), property (par-pty) or contract (par-obg-1)","Although contract is a well-recognised concept across legal systems, other types of private obligation are harder to map between systems. We suggest this as a useful category to start with - it can be subdivided later if found helpful to do so.",,"Liabilities, claims"
+ls-obg-2.1,Tort,par-obg-2,,,Delict,
+par-obg-2.2,Restitution,par-obg-2,,,,"Unjust enrichment, negotiorum gestio"
+par-obg-3,Public obligation,par-obg,"Powers of public or quasi-public authorities and officials, and the rights and duties arising between people and organisations (on the one hand) and such authorities or officials.",,,
+par-obg-3.1,Public power,par-obg-3,,,,
+par-obg-3.2,Public liability,par-obg-3,,,,
