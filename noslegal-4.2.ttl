@@ -1,0 +1,376 @@
+@prefix nosl:    <https://noslegal.org/ns/4.2#> .
+@prefix nc:      <https://noslegal.org/ns/4.2/concept#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+#  NOSLegal 4.2 — compact OWL/RDFS + SKOS overview ontology
+#
+#  Engineered from the NOSLegal 4.2 taxonomy (AltienAllen/nos-legal,
+#  release 2026-05-29). This is a TBox overview: the eight facet
+#  TYPES, their cross-facet RELATIONS (domain/range-typed), the shared
+#  attributes, and the small controlled vocabularies enumerated in
+#  full. The ~9,000 taxonomy TERMS (facets 1-8 leaf concepts, 6.0/6.4/
+#  6.7 places & subdivisions, 6.9 memberships) are the ABox: they load
+#  as skos:Concept individuals typed by these facet classes, generated
+#  mechanically from the CSVs. Only each facet's root concept is
+#  included here as an anchor.
+#
+#  Modelling: facet = owl:Class (the graph node type); term = individual
+#  of that class + skos:Concept in the facet's ConceptScheme; intra-facet
+#  hierarchy = skos:broader (the CSV "Parent" column); code = skos:notation.
+#################################################################
+
+<https://noslegal.org/ns/4.2>
+    a owl:Ontology ;
+    owl:versionInfo "4.2" ;
+    dcterms:title "NOSLegal legal-work taxonomy — overview ontology" ;
+    dcterms:source <https://github.com/AltienAllen/nos-legal> ;
+    dcterms:modified "2026-05-29"^^xsd:date ;
+    rdfs:comment "Faceted taxonomy of legal work: work types, areas of law, participants, roles, sectors, places, process elements and information types." ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+#################################################################
+#  Shared interface + attributes
+#  (LegalConcept ≈ a .pg `implements` interface: every term carries these)
+#################################################################
+
+nosl:LegalConcept a owl:Class ;
+    rdfs:label "Legal concept" ;
+    rdfs:comment "Abstract supertype of every NOSLegal facet term. Carries the shared identity and description attributes." .
+
+nosl:code a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "code" ;
+    rdfs:comment "The NOSLegal hierarchical term code (e.g. law-cor-1). Stable identity; use as @key. Mirrors skos:notation." ;
+    rdfs:domain nosl:LegalConcept ; rdfs:range xsd:string ;
+    rdfs:subPropertyOf skos:notation .
+
+nosl:topics a owl:DatatypeProperty ;
+    rdfs:label "topics" ; rdfs:domain nosl:LegalConcept ; rdfs:range xsd:string ;
+    rdfs:comment "Comma-separated indicative topics falling under the term." .
+
+nosl:exclusions a owl:DatatypeProperty ;
+    rdfs:label "definition exclusions" ; rdfs:domain nosl:LegalConcept ; rdfs:range xsd:string ;
+    rdfs:comment "What the term explicitly excludes (from 'Definition and exclusions')." .
+
+nosl:examples a owl:DatatypeProperty ;
+    rdfs:label "examples" ; rdfs:domain nosl:LegalConcept ; rdfs:range xsd:string .
+
+nosl:notes a owl:DatatypeProperty ;
+    rdfs:label "notes" ; rdfs:domain nosl:LegalConcept ; rdfs:range xsd:string .
+
+nosl:ontologyUri a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "ontology URI" ; rdfs:domain nosl:LegalConcept ; rdfs:range xsd:anyURI ;
+    rdfs:comment "Canonical NOSLegal IRI for cross-system interop / round-trip." .
+
+# External-standard alignment (interop)
+nosl:naceCode a owl:DatatypeProperty ; rdfs:label "NACE section/division code" ;
+    rdfs:domain nosl:Sector ; rdfs:range xsd:string .
+nosl:naceName a owl:DatatypeProperty ; rdfs:label "NACE name" ;
+    rdfs:domain nosl:Sector ; rdfs:range xsd:string .
+nosl:isoCode a owl:DatatypeProperty ; rdfs:label "ISO code" ; rdfs:range xsd:string ;
+    rdfs:comment "ISO 3166 country/subdivision code (Place, Subdivision)." .
+nosl:m49Code a owl:DatatypeProperty ; rdfs:label "UN M49 code" ; rdfs:range xsd:string .
+nosl:verificationLink a owl:DatatypeProperty ; rdfs:label "verification source" ; rdfs:range xsd:anyURI .
+
+#################################################################
+#  FACET 1 — Work types
+#################################################################
+
+nosl:WorkType a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Work type" ;
+    skos:definition "Legal work defined and distinguished by its purpose rather than by the area of law involved." .
+
+nosl:WorkTypeScheme a skos:ConceptScheme ; rdfs:label "NOSLegal work types (facet 1)" .
+nc:wkt a nosl:WorkType , skos:Concept ; skos:topConceptOf nosl:WorkTypeScheme ;
+    skos:prefLabel "Work type" ; nosl:code "wkt" .
+
+#################################################################
+#  FACET 2 — Areas of law (+ Sectoral laws)
+#################################################################
+
+nosl:AreaOfLaw a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Area of law" ;
+    skos:definition "Areas of substantive law of general (not just sectoral) relevance." .
+
+nosl:SectoralLaw a owl:Class ; rdfs:subClassOf nosl:AreaOfLaw ;
+    rdfs:label "Sectoral law" ;
+    skos:definition "Laws specific to particular economic sectors." .
+
+nosl:AreaOfLawScheme a skos:ConceptScheme ; rdfs:label "NOSLegal areas of law (facet 2)" .
+nc:law a nosl:AreaOfLaw , skos:Concept ; skos:topConceptOf nosl:AreaOfLawScheme ;
+    skos:prefLabel "Area of law" ; nosl:code "law" .
+nc:law-sec a nosl:SectoralLaw , skos:Concept ; skos:topConceptOf nosl:AreaOfLawScheme ;
+    skos:prefLabel "Sectoral laws" ; nosl:code "law-sec" .
+
+#################################################################
+#  FACET 3 — Participants (+ Features, Organisation types)
+#################################################################
+
+nosl:Participant a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Participant" ;
+    skos:definition "Persons, property and obligations typically involved in legal work." .
+
+nosl:Feature a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Person feature" ;
+    skos:definition "A characteristic of a person that is not a role but is of relevance for some purposes (e.g. SME, HNWI)." .
+
+nosl:OrganisationType a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Organisation type" ;
+    skos:definition "Types of organisation under UK company and similar laws (local extension pack)." .
+
+nosl:ParticipantScheme a skos:ConceptScheme ; rdfs:label "NOSLegal participants (facet 3)" .
+nc:par a nosl:Participant , skos:Concept ; skos:topConceptOf nosl:ParticipantScheme ;
+    skos:prefLabel "Participants" ; nosl:code "par" .
+nc:par-f a nosl:Feature , skos:Concept ; skos:prefLabel "Person features" ; nosl:code "par-f" .
+
+#################################################################
+#  FACET 4 — Roles
+#################################################################
+
+nosl:Role a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Role" ;
+    skos:definition "A role which a person may play in legal work in relation to another person or process (e.g. defendant, buyer)." .
+
+nosl:RoleScheme a skos:ConceptScheme ; rdfs:label "NOSLegal roles (facet 4)" .
+nc:role a nosl:Role , skos:Concept ; skos:topConceptOf nosl:RoleScheme ;
+    skos:prefLabel "Role" ; nosl:code "role-" .
+
+#################################################################
+#  FACET 5 — Sectors
+#################################################################
+
+nosl:Sector a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Sector" ;
+    skos:definition "Areas of economic activity, based on the NACE / ISIC taxonomies with adjustments for legal work." .
+
+nosl:SectorScheme a skos:ConceptScheme ; rdfs:label "NOSLegal sectors (facet 5)" .
+nc:sec a nosl:Sector , skos:Concept ; skos:topConceptOf nosl:SectorScheme ;
+    skos:prefLabel "Sector" ; nosl:code "sec" .
+
+#################################################################
+#  FACET 6 — Places and their legal geography
+#################################################################
+
+nosl:Place a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Place" ;
+    skos:definition "Countries and areas of the world, with information of legal relevance (UN/ISO based)." .
+
+nosl:Region a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Region" ;
+    skos:definition "Aggregation of places — UN regions/sub-regions/intermediate regions, or alternative regions such as EMEA." .
+
+nosl:LegalSystem a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Legal system" ;
+    skos:definition "The legal system of a place or subdivision, characterised by one or more legal system types." .
+
+nosl:LegalSystemType a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Legal system type" ;
+    skos:definition "A family of legal tradition (e.g. Civil, Common, Islamic, Customary)." .
+
+nosl:Subdivision a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Subdivision" ;
+    skos:definition "A subdivision of a country or area (ISO 3166-2 based), possibly with its own legal system." .
+
+nosl:SubdivisionType a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Subdivision type" ;
+    skos:definition "The kind of a subdivision (e.g. state, province, canton)." .
+
+nosl:Organisation a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Organisation or treaty" ;
+    skos:definition "An international organisation or treaty to which places may be party." .
+
+nosl:Treaty a owl:Class ; rdfs:subClassOf nosl:Organisation ;
+    rdfs:label "Treaty" ;
+    skos:definition "A treaty or convention, optionally with a predecessor agreement." .
+
+nosl:PlaceScheme a skos:ConceptScheme ; rdfs:label "NOSLegal places (facet 6)" .
+
+#################################################################
+#  FACET 7 — Process elements
+#################################################################
+
+nosl:Process a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Process" ;
+    skos:definition "A process map covering the steps and practical elements of conducting a class of legal matter (e.g. Finance, CRE transaction, Litigation)." .
+
+nosl:Phase a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Phase" ;
+    skos:definition "A phase within a process map, with its tasks, deliverables and milestones." .
+
+nosl:tasks a owl:DatatypeProperty ; rdfs:label "tasks" ; rdfs:domain nosl:Phase ; rdfs:range xsd:string .
+nosl:deliverables a owl:DatatypeProperty ; rdfs:label "deliverables" ; rdfs:domain nosl:Phase ; rdfs:range xsd:string .
+nosl:milestones a owl:DatatypeProperty ; rdfs:label "milestones" ; rdfs:domain nosl:Phase ; rdfs:range xsd:string .
+nosl:relationshipToParent a owl:DatatypeProperty ; rdfs:label "relationship to parent phase" ;
+    rdfs:domain nosl:Phase ; rdfs:range xsd:string .
+nosl:generalOrSpecial a owl:DatatypeProperty ; rdfs:label "general or special" ;
+    rdfs:domain nosl:Phase ; rdfs:range xsd:string ;
+    rdfs:comment "Whether a phase is general to the process or a special/optional variant." .
+
+#################################################################
+#  FACET 8 — Information types (+ Uses, Status, Audience)
+#################################################################
+
+nosl:InformationType a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Information type" ;
+    skos:definition "Types of document and other asset in which legally-relevant information is found." .
+
+nosl:InformationUse a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Information use" ;
+    skos:definition "The purpose or significance for which material is classified in a context (matter-specific to canonical knowledge). An item may carry more than one use." .
+
+nosl:InformationStatus a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Information status" ;
+    skos:definition "The work status of an information asset (final, draft, fluid)." .
+
+nosl:Audience a owl:Class ; rdfs:subClassOf nosl:LegalConcept ;
+    rdfs:label "Audience" ;
+    skos:definition "Who an information asset is intended for." .
+
+nosl:InformationTypeScheme a skos:ConceptScheme ; rdfs:label "NOSLegal information types (facet 8)" .
+nc:inf a nosl:InformationType , skos:Concept ; skos:topConceptOf nosl:InformationTypeScheme ;
+    skos:prefLabel "Information type" ; nosl:code "inf" .
+
+#################################################################
+#  CROSS-FACET RELATIONS  (the domain/range "gift" — one edge type each)
+#################################################################
+
+# — Roles bind participants to work (facet 4 → 3/1/2)
+nosl:roleRequiresParticipant a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "role requires participant type" ;
+    rdfs:comment "'Subject must be' — the participant type a role presupposes." ;
+    rdfs:domain nosl:Role ; rdfs:range nosl:Participant .
+nosl:roleInWorkType a owl:ObjectProperty ;
+    rdfs:label "role in work type" ; rdfs:domain nosl:Role ; rdfs:range nosl:WorkType .
+nosl:roleInAreaOfLaw a owl:ObjectProperty ;
+    rdfs:label "role in area of law" ; rdfs:domain nosl:Role ; rdfs:range nosl:AreaOfLaw .
+
+# — Features presuppose a participant type (facet 3.1 → 3)
+nosl:featureRequiresParticipant a owl:ObjectProperty ;
+    rdfs:label "feature requires participant type" ;
+    rdfs:domain nosl:Feature ; rdfs:range nosl:Participant .
+
+# — Sectoral law ↔ sector (facet 2.1 → 5)
+nosl:governsSector a owl:ObjectProperty ;
+    rdfs:label "governs sector" ; rdfs:comment "'Linked sector' — the economic sector a sectoral law governs." ;
+    rdfs:domain nosl:SectoralLaw ; rdfs:range nosl:Sector .
+
+# — Place geography (facet 6)
+nosl:inRegion a owl:ObjectProperty ;
+    rdfs:label "in region" ; rdfs:domain nosl:Place ; rdfs:range nosl:Region .
+nosl:isUNMember a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "is UN member" ; rdfs:domain nosl:Place ; rdfs:range xsd:boolean .
+nosl:linkedUNMember a owl:ObjectProperty ;
+    rdfs:label "linked UN member" ; rdfs:comment "The UN-member place a non-member area is linked to." ;
+    rdfs:domain nosl:Place ; rdfs:range nosl:Place .
+nosl:hasLegalSystem a owl:ObjectProperty ;
+    rdfs:label "has legal system" ; rdfs:domain nosl:Place ; rdfs:range nosl:LegalSystem .
+nosl:hasMainLegalType a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "has main legal type" ; rdfs:domain nosl:LegalSystem ; rdfs:range nosl:LegalSystemType .
+nosl:hasHybridLegalType a owl:ObjectProperty ;
+    rdfs:label "has hybrid legal type" ; rdfs:domain nosl:LegalSystem ; rdfs:range nosl:LegalSystemType .
+nosl:hasHistoricalInfluence a owl:ObjectProperty ;
+    rdfs:label "has historical legal influence" ;
+    rdfs:comment "A jurisdiction whose law historically influenced this one." ;
+    rdfs:domain nosl:LegalSystem ; rdfs:range nosl:Place .
+
+# — Subdivisions (facet 6.5/6.7)
+nosl:subdivisionOf a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "subdivision of" ; rdfs:domain nosl:Subdivision ; rdfs:range nosl:Place .
+nosl:subdivisionParent a owl:ObjectProperty ;
+    rdfs:label "parent subdivision" ; rdfs:domain nosl:Subdivision ; rdfs:range nosl:Subdivision .
+nosl:hasSubdivisionType a owl:ObjectProperty ;
+    rdfs:label "has subdivision type" ; rdfs:domain nosl:Subdivision ; rdfs:range nosl:SubdivisionType .
+
+# — Memberships & treaties (facet 6.9/6.10)
+nosl:hasMember a owl:ObjectProperty ;
+    rdfs:label "has member" ; rdfs:domain nosl:Organisation ; rdfs:range nosl:Place ;
+    owl:inverseOf nosl:memberOf .
+nosl:memberOf a owl:ObjectProperty ;
+    rdfs:label "member of" ; rdfs:domain nosl:Place ; rdfs:range nosl:Organisation .
+nosl:membershipBegan a owl:DatatypeProperty ;
+    rdfs:label "membership began" ; rdfs:range xsd:date ;
+    rdfs:comment "Date a place joined an organisation/treaty. Metadata-bearing — reify (Membership node) if it must be queried as a first-class fact." .
+nosl:hasPredecessor a owl:ObjectProperty ;
+    rdfs:label "has predecessor" ; rdfs:domain nosl:Treaty ; rdfs:range nosl:Treaty .
+
+# — Process structure (facet 7)
+nosl:hasPhase a owl:ObjectProperty ;
+    rdfs:label "has phase" ; rdfs:domain nosl:Process ; rdfs:range nosl:Phase ;
+    owl:inverseOf nosl:phaseOf .
+nosl:phaseOf a owl:ObjectProperty ;
+    rdfs:label "phase of" ; rdfs:domain nosl:Phase ; rdfs:range nosl:Process .
+nosl:subPhaseOf a owl:ObjectProperty ;
+    rdfs:label "sub-phase of" ; rdfs:domain nosl:Phase ; rdfs:range nosl:Phase .
+
+# — Information classification (facet 8)
+nosl:infoHasUse a owl:ObjectProperty ;
+    rdfs:label "has information use" ; rdfs:domain nosl:InformationType ; rdfs:range nosl:InformationUse .
+nosl:infoHasStatus a owl:ObjectProperty ;
+    rdfs:label "has information status" ; rdfs:domain nosl:InformationType ; rdfs:range nosl:InformationStatus .
+nosl:infoHasAudience a owl:ObjectProperty ;
+    rdfs:label "has audience" ; rdfs:domain nosl:InformationType ; rdfs:range nosl:Audience .
+
+#################################################################
+#  CONTROLLED VOCABULARIES — enumerated in full (small, type-like)
+#################################################################
+
+# 6.6 Legal system types
+nosl:LegalSystemTypeScheme a skos:ConceptScheme ; rdfs:label "Legal system types (facet 6.6)" .
+nc:lst-canon       a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Canon" .
+nc:lst-civil       a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Civil" .
+nc:lst-common      a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Common" .
+nc:lst-customary   a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Customary" .
+nc:lst-hindu       a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Hindu" .
+nc:lst-hybrid      a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Hybrid" .
+nc:lst-islamic     a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Islamic" .
+nc:lst-jewish      a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Jewish" .
+nc:lst-nordic      a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Nordic" .
+nc:lst-roman-dutch a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Roman-Dutch" .
+nc:lst-scots       a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Scots" .
+nc:lst-socialist   a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Socialist" .
+nc:lst-tribal      a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Tribal" .
+nc:lst-traditional a nosl:LegalSystemType , skos:Concept ; skos:inScheme nosl:LegalSystemTypeScheme ; skos:prefLabel "Traditional" .
+
+# 6.3 Alternative regions
+nosl:AltRegionScheme a skos:ConceptScheme ; rdfs:label "Alternative regions (facet 6.3)" .
+nc:reg-amer   a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "AMER" ; skos:definition "Americas" .
+nc:reg-emea-1 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "EMEA_1" ; skos:definition "Europe, Africa, Central Asia, Western Asia (EMEA wide, inc Central Asia + Iran)." .
+nc:reg-apac-1 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "APAC_1" ; skos:definition "Oceania, Eastern Asia, South-eastern Asia, Southern Asia (APAC narrow)." .
+nc:reg-emea-2 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "EMEA_2" ; skos:definition "As EMEA_1 but excluding Iran." .
+nc:reg-apac-2 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "APAC_2" ; skos:definition "As APAC_1 plus Iran." .
+nc:reg-emea-3 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "EMEA_3" ; skos:definition "Europe, Africa, Western Asia excluding Iran (EMEA narrow)." .
+nc:reg-apac-3 a nosl:Region , skos:Concept ; skos:inScheme nosl:AltRegionScheme ; skos:prefLabel "APAC_3" ; skos:definition "Oceania, Central Asia, Eastern Asia, South-eastern Asia, Southern Asia plus Iran (APAC wide)." .
+
+# 8.1 Information uses
+nosl:InformationUseScheme a skos:ConceptScheme ; rdfs:label "Information uses (facet 8.1)" .
+nc:inf-use   a nosl:InformationUse , skos:Concept ; skos:topConceptOf nosl:InformationUseScheme ; nosl:code "inf-use" ; skos:prefLabel "Information use" .
+nc:inf-use-r a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use ; nosl:code "inf-use-r" ; skos:prefLabel "Work record" .
+nc:inf-use-1 a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use-r ; nosl:code "inf-use-1" ; skos:prefLabel "Work record > general" .
+nc:inf-use-2 a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use-r ; nosl:code "inf-use-2" ; skos:prefLabel "Work record > key" .
+nc:inf-use-k a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use ; nosl:code "inf-use-k" ; skos:prefLabel "Knowledge" .
+nc:inf-use-3 a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use-k ; nosl:code "inf-use-3" ; skos:prefLabel "Knowledge > contextual" .
+nc:inf-use-4 a nosl:InformationUse , skos:Concept ; skos:inScheme nosl:InformationUseScheme ; skos:broader nc:inf-use-k ; nosl:code "inf-use-4" ; skos:prefLabel "Knowledge > good practice" .
+
+# 8.2 Information status
+nosl:InformationStatusScheme a skos:ConceptScheme ; rdfs:label "Information status (facet 8.2)" .
+nc:inf-sta   a nosl:InformationStatus , skos:Concept ; skos:topConceptOf nosl:InformationStatusScheme ; nosl:code "inf-sta" ; skos:prefLabel "Information asset status" .
+nc:inf-sta-1 a nosl:InformationStatus , skos:Concept ; skos:inScheme nosl:InformationStatusScheme ; skos:broader nc:inf-sta ; nosl:code "inf-sta-1" ; skos:prefLabel "Final" .
+nc:inf-sta-2 a nosl:InformationStatus , skos:Concept ; skos:inScheme nosl:InformationStatusScheme ; skos:broader nc:inf-sta ; nosl:code "inf-sta-2" ; skos:prefLabel "Draft" .
+nc:inf-sta-3 a nosl:InformationStatus , skos:Concept ; skos:inScheme nosl:InformationStatusScheme ; skos:broader nc:inf-sta ; nosl:code "inf-sta-3" ; skos:prefLabel "Fluid" .
+
+# 8.3 Audience
+nosl:AudienceScheme a skos:ConceptScheme ; rdfs:label "Audiences (facet 8.3)" .
+nc:inf-aud     a nosl:Audience , skos:Concept ; skos:topConceptOf nosl:AudienceScheme ; nosl:code "inf-aud" ; skos:prefLabel "Information asset audience" .
+nc:inf-aud-1   a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud ; nosl:code "inf-aud-1" ; skos:prefLabel "Internal" .
+nc:inf-aud-1.1 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-1 ; nosl:code "inf-aud-1.1" ; skos:prefLabel "Legal professionals" .
+nc:inf-aud-1.2 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-1 ; nosl:code "inf-aud-1.2" ; skos:prefLabel "Business people" .
+nc:inf-aud-2   a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud ; nosl:code "inf-aud-2" ; skos:prefLabel "External" .
+nc:inf-aud-2.1 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-2 ; nosl:code "inf-aud-2.1" ; skos:prefLabel "Client" .
+nc:inf-aud-2.2 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-2 ; nosl:code "inf-aud-2.2" ; skos:prefLabel "Prospect" .
+nc:inf-aud-2.3 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-2 ; nosl:code "inf-aud-2.3" ; skos:prefLabel "Public" .
+nc:inf-aud-2.4 a nosl:Audience , skos:Concept ; skos:inScheme nosl:AudienceScheme ; skos:broader nc:inf-aud-2 ; nosl:code "inf-aud-2.4" ; skos:prefLabel "Counterparty" .
